@@ -1,3 +1,5 @@
+2019-09-26
+
 Summary notes of the demo given today in the Brown Bag. 
 
 ## Querying EDAN using R or Python
