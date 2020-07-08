@@ -13,15 +13,11 @@ For more information on the SI Carpentries group, please visit the SI Data Scien
 Brown Bag Schedule and Locations
 ---------------------------------
 
-The Brown Bags will generally be held on the fourth Thursday of every month from 12pm--1pm EST. On occasion, Brown Bags may be moved due to holidays; please check the detailed schedule for the exact dates.
+The Brown Bags will generally be held on the fourth Wednesday of every month from 1pm-2pm EDT. On occasion, Brown Bags may be moved due to holidays; please check the detailed schedule for the exact dates.
 
 Schedule: https://github.com/SmithsonianWorkshops/carpentries-brown-bag/wiki/Schedule
 
-The Brown Bag location will rotate every month or every other month, but will generally be in the Downtown DC area. For specific locations, please check the detailed schedule and the location directions.
-
-Location directions: https://github.com/SmithsonianWorkshops/carpentries-brown-bag/wiki/Brown-Bag-Locations
-
-We would encourage those who can to attend in person; it's nice to get some face time with fellow Carpentries folks! We understand that not everyone is located in Downtown DC though, and we will have a Zoom video connection set up for those who would like to call in remotely. Please email SI-DataScience for details.
+While SI is in the process of phased reopening, all Brown Bags will be conducted online via Zoom. The link for the Zoom meeting will be emailed out shortly before the Brown Bag; please sign up on the **Carpentries-announce** listserv to receive emails about Brown Bags and other SI Carpentries events. For help, please email SI-DataScience.
 
 Presentation Materials
 ------------------------
