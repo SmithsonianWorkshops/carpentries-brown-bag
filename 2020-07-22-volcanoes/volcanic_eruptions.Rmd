@@ -3,18 +3,110 @@ title: "TidyTuesday: Volcanic Eruptions"
 output: html_notebook
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
-
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+Install packages
 
 ```{r}
-plot(cars)
+library(tidyverse)
+library(ggridges)
 ```
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+Download data
 
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+```{r}
+# Get the Data
+
+volcano <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-12/volcano.csv')
+eruptions <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-12/eruptions.csv')
+events <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-12/events.csv')
+tree_rings <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-12/tree_rings.csv')
+sulfur <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-12/sulfur.csv')
+
+```
+
+volcano.csv
+
+```{r}
+names(volcano)
+```
+
+```{r}
+head(volcano)
+```
+
+
+```{r}
+volcano_type <- volcano %>%
+    select(volcano_number, primary_volcano_type, elevation)
+```
+
+Make ggplot
+
+```{r}
+ggplot(volcano_type, aes(x = elevation, y = primary_volcano_type)) + geom_density_ridges()
+```
+
+Rock type
+
+```{r}
+rock_type <- volcano %>%
+    select(volcano_number, major_rock_1, elevation, region)
+```
+
+
+
+```{r}
+ggplot(rock_type, aes(x = elevation, y = major_rock_1, fill = major_rock_1)) + geom_density_ridges()
+```
+
+facet by region
+
+```{r}
+ggplot(rock_type, aes(x = elevation, y = major_rock_1, fill = major_rock_1)) + 
+    geom_density_ridges() +
+    facet_wrap(~region)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Population and rock type
+
+```{r}
+population <- volcano %>%
+    select(volcano_number, major_rock_1, elevation, population_within_5_km)
+```
+
+```{r}
+ggplot(population, aes(x=elevation, y=population_within_5_km, color=major_rock_1)) + geom_point()
+```
 
 
