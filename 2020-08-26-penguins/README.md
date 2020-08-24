@@ -8,6 +8,14 @@ For this month, we ask that participants take a look at the dataset ahead of tim
 
 Whether you're fresh from completing a Data Carpentry workshop (hello August workshop participants!) or you're a grizzled, seasoned veteran, working on an actual project is the best way to reinforce the skills you've learned and experiment with new, exciting ways of doing things. This is a great opportunity to put your skills into effect and be able to show off your hard work at the end!
 
+## Data Carpentry Lessons
+
+If you would like a refresher on visualizing data in R or Python, here are links to the corresponding lessons that were taught during the workshops.
+
+R: https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html
+
+Python: https://datacarpentry.org/python-ecology-lesson/07-visualization-ggplot-python/index.html
+
 ## Data
 
 The dataset we will be working with can be found here: https://github.com/allisonhorst/palmerpenguins.
