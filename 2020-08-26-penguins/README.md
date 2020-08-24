@@ -12,6 +12,8 @@ Whether you're fresh from completing a Data Carpentry workshop (hello August wor
 
 The dataset we will be working with can be found here: https://github.com/allisonhorst/palmerpenguins.
 
+Per the repository, these data are available by CC-0 license, so they can be used freely for any project and any use!
+
 ### R
 
 For those working in R, the data are available as an R package. First, install the package. This only needs to be done once.
@@ -31,7 +33,30 @@ You will now have two data frames available for use: `penguins` and `penguins_ra
 
 ### Python
 
+`penguins` and `penguins_raw` can be imported into Python from this repository using the pandas package.
+
+~~~
+import pandas as pd
+
+penguins = pd.read_csv('https://raw.githubusercontent.com/SmithsonianWorkshops/carpentries-brown-bag/master/2020-08-26-penguins/penguins.csv')
+
+penguins_raw = pd.read_csv('https://raw.githubusercontent.com/SmithsonianWorkshops/carpentries-brown-bag/master/2020-08-26-penguins/penguins_raw.csv')
+~~~
+
 ### Other software
 
+You can also download these data as CSV files and import them into the analysis/visualization software of your choice.
 
+To do this, click on the link to the file in the file list above. This will take you to a GitHub page where the data have been automatically parsed and displayed nicely as a table.
 
+At the upper right of the table, there is a button labaled Raw. **Right-click** this button to bring up a menu of options.
+
+One of the options will be "Save link as..." or "Save target as...". **Left-click** to select this menu option, which will take you to a file download dialog.
+
+![Save target](img/save_file1.png)
+
+By default, your file may be named `penguins.txt` or `penguins_raw.txt`. When saving the file, edit the name to save the file as a CSV file instead.
+
+![Edit file name](img/save_file2.png)
+
+Save the file in the desired location. You should now be able to import it into another program (e.g. Excel, Tableau, OpenRefine, DB Browser, etc.)
