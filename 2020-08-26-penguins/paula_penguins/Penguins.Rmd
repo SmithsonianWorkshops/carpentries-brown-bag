@@ -1,0 +1,119 @@
+---
+title: "Playing with penguins data"
+author: "Paula Pappalardo"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document: default
+  word_document: default
+---
+
+## Setup
+
+```{r setup, echo = T, warning = F, message = F, comment = ""}
+library(knitr)
+
+# tidy options
+
+knitr::opts_chunk$set(echo = T, warning = F, message = F, comment = "")
+
+# set up home directory
+
+setwd("C:/Users/Paula/Dropbox/Smithsonian/Carpentries/penguins")
+```
+
+```{r libraries}
+# install libraries
+# install.packages("palmerpenguins")
+# install.packages("magick")
+# install.packages("visdat")
+
+# load libraries
+library(tidyverse)
+library(palmerpenguins)
+library(visdat)
+library(cowplot)
+library(magick)
+```
+
+## Get familiar with the data
+
+Penguin artwork provided by @allison_horst. You can get it [here](https://allisonhorst.github.io/palmerpenguins/articles/art.html). The image I used below is called "penguins" and you need to save it in your home directory.
+
+Penguins dataset: get a glimpse of the data and the distribution of missing values. You can find more information about this dataset [here](https://allisonhorst.github.io/palmerpenguins/articles/intro.html).
+
+```{r data summaries}
+# How many data points by species
+n.byspp <- penguins %>%
+  count(species)
+
+# Averages for numeric variables
+ave.penguins <- penguins %>%
+  group_by(species) %>%
+  summarize(across(where(is.numeric), mean, na.rm = TRUE))
+
+# Take a glimpse at the data
+glimpse(penguins)
+
+# Where are the missing values? 
+#visdat::vis_dat(penguins)
+visdat::vis_miss(penguins)
+```
+
+
+## Make some plots
+
+To learn how to add an image to a plot I found information [here](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) and [here](https://wilkelab.org/cowplot/articles/drawing_with_on_plots.html).
+
+&nbsp; 
+
+First I customized theme parameters:
+
+```{r plot setup}
+niceplot <- theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        plot.title = element_text(face = "bold", size = 18, hjust = 0.5),
+        axis.title.x = element_text(face = "bold", size = 14,
+                                    margin = margin(t = 20, r = 0, b = 0, l = 0)),
+        axis.title.y = element_text(face = "bold", size = 14,
+                                    margin = margin(t = 0, r = 20, b = 0, l = 0)),
+        axis.text.x = element_text(size = 13),
+        axis.text.y = element_text(size = 13),
+        legend.text = element_text(size = 13),
+        legend.title = element_text(size = 13),
+        legend.position = "bottom") 
+```
+
+Then I loaded the image and set up the plot:
+
+```{r who is bigger, fig.width= 10, fig.height= 7}
+# Load penguin art
+fun.penguins <- image_read("penguins.png") %>%
+  image_resize("570x380") %>%
+  image_colorize(75, "white")
+
+
+# Filter out NAs
+mypenguins <- penguins %>% 
+  dplyr::filter(!is.na(sex))
+
+# Order species to match the image
+mypenguins$f.species <- factor(mypenguins$species,
+                               ordered = T,
+                               levels = c("Chinstrap", "Gentoo", "Adelie"))
+ 
+# plot body size by species for each sex
+p <- ggplot(data = mypenguins, aes(x = f.species, y = body_mass_g, fill=sex)) +
+  geom_boxplot(alpha = 0.4) +
+  ggtitle("Who is bigger?") + 
+  niceplot +
+  labs(x = "Species", y = "Body size (g)") +
+  theme(panel.background = element_rect(fill = "transparent",colour = NA),
+        plot.background = element_rect(fill = "transparent",colour = NA))
+
+# combine image and plot
+ggdraw() + 
+  draw_image(fun.penguins) + 
+  draw_plot(p)
+```
+
