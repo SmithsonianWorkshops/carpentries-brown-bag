@@ -22,7 +22,7 @@ While SI is in the process of phased reopening, all Brown Bags will be conducted
 Presentation Materials
 ------------------------
 
-Each Brown Bag includes an informal 10 minute presentation on a topic relating to material presented in a Data or Software Carpentry workshop. Following the Brown Bag, presentation slides, materials, and links are archived in this repository. 
+Each Brown Bag includes an informal presentation on a topic relating to material presented in a Data or Software Carpentry workshop. Following the Brown Bag, presentation slides, materials, and links are archived in this repository. 
 
 Get Involved!
 --------------
