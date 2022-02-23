@@ -1,0 +1,14 @@
+name: python-web-scraping
+channels:
+- conda-forge
+dependencies:
+- beautifulsoup4
+- html5lib
+- lxml
+- pandas
+- requests
+- requests-cache
+- rise
+# Jupyter
+- jupyterlab
+- jupyter_contrib_nbextensions
