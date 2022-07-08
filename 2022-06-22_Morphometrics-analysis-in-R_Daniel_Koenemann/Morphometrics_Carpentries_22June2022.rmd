@@ -1,0 +1,355 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r Libraries}
+
+# The first chunk is used to set-up the environment, including the loading of libraries 
+
+library(tidyverse)
+library(magrittr)
+library(FactoMineR)
+library(mclust)
+library(missMDA)
+library(outliers)
+library(cluster)
+library(factoextra)
+
+```
+
+```{r ReadData}
+
+TriplarisData <- read_csv(file = "TriplarisMorphometrics.csv",
+         col_names = TRUE)
+
+TriplarisData
+```
+
+
+```{r Factors}
+
+TriplarisData <- TriplarisData %>%
+  mutate(AcceptedName = as_factor(AcceptedName),
+         Country = as_factor(Country),
+         AbaxialVenationConspicuity = as_factor(AbaxialVenationConspicuity),
+         LaminaShape = as_factor(LaminaShape),
+         LaminaBaseShape = as_factor(LaminaBaseShape),
+         LaminaTipShape = as_factor(LaminaTipShape),
+         DripTip = as_factor(DripTip),
+         LeafPubescenceCover = as_factor(LeafPubescenceCover),
+         InflorescenceStemPubescenceCover = as_factor(InflorescenceStemPubescenceCover),
+         SpikePubesenceColor = as_factor(SpikePubesenceColor),
+         InflorescenceInternodePubescenceColor = as_factor(InflorescenceInternodePubescenceColor))
+
+```
+
+```{r outliers}
+
+UpperLower <- quantile(TriplarisData$PetioleLength,
+           probs = c(0.25, 0.75),
+           na.rm = TRUE)
+
+Upper <- UpperLower[2] + 1.5 * IQR(TriplarisData$PetioleLength,
+                                   na.rm = TRUE)
+
+Lower <- UpperLower[1] - 1.5 * IQR(TriplarisData$PetioleLength,
+                                   na.rm = TRUE)
+
+TriplarisData <- TriplarisData %>%
+  mutate(PetioleLength = ifelse(PetioleLength < Upper & PetioleLength > Lower, 
+                                   PetioleLength, 
+                                   NA)) 
+
+TriplarisData
+```
+
+```{r outliers2}
+
+TriplarisData <- TriplarisData %>% 
+  mutate(PetioleLength = rm.outlier(TriplarisData$PetioleLength, 
+                                    fill = TRUE, 
+                                    median = FALSE))
+
+TriplarisData
+```
+
+```{r MissingData1}
+
+TriplarisDataOmit <- TriplarisData %>%
+  na.omit()
+
+TriplarisDataOmit
+```
+
+```{r MissingData2}
+
+TriplarisNumeric <- TriplarisData %>% 
+  select(ID,
+         PetioleLength,
+         LaminaWidth,
+         LaminaLength,
+         LaminaLengthWidthRatio,
+         SecondariesInLamina,
+         SecondariesPerLength,
+         LeafPubescenceLength,
+         InflorescenceInternodeLength,
+         InflorescenceInternodeWidth,
+         BractioleLength,
+         SpikeLength,
+         SpikePubescenceLength,
+         InflorescenceInternodePubescenceLength)
+
+TriplarisImputed <- imputePCA(TriplarisNumeric, 
+                              scale = TRUE) %>%
+  as.data.frame()
+
+TriplarisImputed
+```
+
+```{r cleaningpipe}
+
+TriplarisData <- read_csv(file = "TriplarisMorphometrics.csv",
+         col_names = TRUE) 
+
+UpperLower <- quantile(TriplarisData$PetioleLength,
+           probs = c(0.25, 0.75),
+           na.rm = TRUE)
+Upper <- UpperLower[2] + 1.5 * IQR(TriplarisData$PetioleLength,
+                                   na.rm = TRUE)
+Lower <- UpperLower[1] - 1.5 * IQR(TriplarisData$PetioleLength,
+                                   na.rm = TRUE)
+
+TriplarisData <- TriplarisData %>% 
+  mutate(AcceptedName = as_factor(AcceptedName),
+  Country = as_factor(Country),
+  AbaxialVenationConspicuity = as_factor(AbaxialVenationConspicuity),
+  LaminaShape = as_factor(LaminaShape),
+  LaminaBaseShape = as_factor(LaminaBaseShape),
+  LaminaTipShape = as_factor(LaminaTipShape),
+  DripTip = as_factor(DripTip),
+  LeafPubescenceCover = as_factor(LeafPubescenceCover),
+  InflorescenceStemPubescenceCover = as_factor(InflorescenceStemPubescenceCover),
+  SpikePubesenceColor = as_factor(SpikePubesenceColor),
+  InflorescenceInternodePubescenceColor = as_factor(InflorescenceInternodePubescenceColor),
+  PetioleLength = rm.outlier(TriplarisData$PetioleLength, 
+                             fill = TRUE, 
+                             median = FALSE)) %>% 
+  na.omit()
+  
+TriplarisData
+```
+
+```{r pcabasic}
+TriplarisData <- read_csv(file = "TriplarisMorphometrics.csv",    # Read Data
+         col_names = TRUE) %>%                                
+  select(AcceptedName,                                           # Select Only Numeric Variables
+         PetioleLength,
+         LaminaWidth,
+         LaminaLength,
+         LaminaLengthWidthRatio,
+         LeafPubescenceLength,
+         InflorescenceInternodeLength,
+         InflorescenceInternodeWidth,
+         BractioleLength,
+         SpikeLength,
+         SpikePubescenceLength,
+         InflorescenceInternodePubescenceLength) %>%
+  filter(AcceptedName == c("Melaenodendron",
+                           "Americana",
+                           "Cumingiana")) %>%
+  na.omit()                                                      # Leave Outliers But Remove Missing Data (Not Impute)
+  
+TriplarisPCA <- prcomp(TriplarisData[ ,2:12],                    # PCA Calculations 
+                center = TRUE, 
+                scale. = TRUE)
+
+TriplarisPCA$x[ ,1:2] %>%
+  as_tibble() %>%
+  ggplot(mapping = aes(x = PC1,
+                       y = PC2,
+                       color = TriplarisData$AcceptedName)) +
+  geom_point()
+
+```
+
+```{r pcaplot}
+TriplarisPCA$x[ ,1:2] %>%
+  as_tibble() %>%
+  ggplot(mapping = aes(x = PC1,
+                       y = PC2,
+                       color = TriplarisData$AcceptedName)) +
+  geom_point() +
+  stat_ellipse(level = 0.90) +
+  stat_ellipse(level = 0.95,
+               linetype = 2) +
+  theme_classic() +
+  labs(title = "PCA of Three Species of Triplaris",
+       subtitle = "From Carpentries Workshop",
+       caption = "Koenemann et al. 2022",
+       color = "Triplaris Species",
+       x = "Component 1 (31%)",
+       y = "Component 2 (14%)") +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(hjust = 0.5))
+
+
+ggsave(filename = "TriplarisPCAPlot.png",
+       plot = last_plot(),
+       device = "png",
+       width = 8,
+       height = 6,
+       units = "in",
+       dpi = 500)
+
+```
+
+
+```{r pcastats1}
+summary(TriplarisPCA)
+```
+
+```{r pcastat22}
+TriplarisLoadings <- abs(TriplarisPCA$rotation)
+VariableCOntributions <- sweep(TriplarisLoadings, 
+                               2, 
+                               colSums(TriplarisLoadings), 
+                               "/")
+
+VariableCOntributions
+```
+
+```{r normalize}
+TriplarisData <- read_csv(file = "TriplarisMorphometrics.csv",
+         col_names = TRUE) %>%                                
+  select(AcceptedName,
+         PetioleLength,
+         LaminaWidth,
+         LaminaLength,
+         LaminaLengthWidthRatio,
+         LeafPubescenceLength,
+         InflorescenceInternodeLength,
+         InflorescenceInternodeWidth,
+         BractioleLength,
+         SpikeLength,
+         SpikePubescenceLength,
+         InflorescenceInternodePubescenceLength) %>%
+  filter(AcceptedName == c("Melaenodendron",
+                           "Americana",
+                           "Cumingiana")) %>%
+  na.omit() %>%
+  mutate(PetioleLengthNorm = log(PetioleLength))
+
+```
+
+```{r mclust1}
+
+TriplarisMclust <- Mclust(TriplarisData[ ,2:12])
+
+summary(TriplarisMclust)
+```
+
+```{r mclust2}
+
+TriplarisMclust$classification %>%
+  as_tibble() %>%
+  cbind(TriplarisData) %>%
+  write_csv("TriplarisMclustGroups.csv",
+            col_names = TRUE)
+
+```
+
+```{r mclust3}
+
+TriplarisMclust$z %>%
+  as_tibble() %>%
+  cbind(TriplarisData) %>%
+  write_csv("TriplarisMclustProb.csv",
+            col_names = TRUE)
+
+```
+
+```{r hierarchical1}
+TriplarisHier <- read_csv(file = "TriplarisMorphometrics.csv",
+                          col_names = TRUE) %>%
+  select(-Country,
+         -Institution,
+         -Sex) %>%
+  mutate(AcceptedName = as_factor(AcceptedName),
+         AbaxialVenationConspicuity = as_factor(AbaxialVenationConspicuity),
+         LaminaShape = as_factor(LaminaShape),
+         LaminaBaseShape = as_factor(LaminaBaseShape),
+         LaminaTipShape = as_factor(LaminaTipShape),
+         DripTip = as_factor(DripTip),
+         LeafPubescenceCover = as_factor(LeafPubescenceCover),
+         InflorescenceStemPubescenceCover = as_factor(InflorescenceStemPubescenceCover),
+         SpikePubesenceColor = as_factor(SpikePubesenceColor),
+         InflorescenceInternodePubescenceColor = as_factor(InflorescenceInternodePubescenceColor),
+         LeafPubescenceColor = as_factor(LeafPubescenceColor)) %>%
+  filter(AcceptedName == c("Melaenodendron",
+                           "Americana",
+                           "Cumingiana")) %>%
+  unite("ID",
+        "AcceptedName",
+        col = "ID",
+        sep = "_") %>%
+  column_to_rownames(var = "ID")
+
+```
+
+```{r hierarchical2}
+
+TriplarisGower <- daisy(TriplarisHier, 
+                   metric = "gower")
+
+TriplarisGowerMatrix <- as.matrix(TriplarisGower)
+
+```
+
+```{r hierarchical3}
+
+fviz_nbclust(TriplarisGowerMatrix,
+             FUN = hcut,
+             method = "wss")
+
+ggsave(filename = "ElbowPlot.png",
+       plot = last_plot(),
+       device = "png",
+       width = 8,
+       height = 6,
+       units = "in",
+       dpi = 500)
+
+```
+
+```{r hierarchical4}
+
+TriplarisDiana <- diana(TriplarisGower,
+                   diss = TRUE)
+
+TriplarisDiana %>%
+  pltree(cex = 0.5,
+         main = "Triplaris Dendrogram")
+
+```
+
+```{r hierarchical5}
+
+cutree(as.hclust(TriplarisDiana), 
+       k = 2) %>% 
+  as_tibble() %>%
+  cbind(TriplarisHier) %>%
+  rename(ClusterAssignment = value) %>%
+  mutate(ID = rownames(TriplarisHier)) %>%
+  separate(ID,
+           into = c("ID",
+                    "AcceptedName"),
+           sep = "_") %>%
+  select(ID,
+         AcceptedName,
+         ClusterAssignment,
+         AbaxialVenationConspicuity:InflorescenceInternodePubescenceColor) %>% 
+  write_csv("TriplarisHierarchicalAssignments.csv")
+
+```
+

@@ -1,0 +1,508 @@
+ID,AcceptedName,Institution,Country,AbaxialVenationConspicuity,PetioleLength,LaminaShape,LaminaBaseShape,LaminaTipShape,DripTip,LaminaWidth,LaminaLength,LaminaLengthWidthRatio,SecondariesInLamina,SecondariesPerLength,LeafPubescenceCover,LeafPubescenceLength,LeafPubescenceColor,Sex,InflorescenceInternodeLength,InflorescenceInternodeWidth,BractioleLength,SpikeLength,InflorescenceStemPubescenceCover,SpikePubescenceLength,SpikePubesenceColor,InflorescenceInternodePubescenceLength,InflorescenceInternodePubescenceColor
+18,Americana,US,BRAZIL,Tertiaries,16,Elliptic,Attenuate,Apiculate,Y,,263,,,,6,1.2,Amber,F,15,7,3.5,227,4,3.2,Straw,1.5,Amber
+389,Americana,NY,COLOMBIA,Secondaries,11,Elliptic,Acute,Acuminate,N,92,269,2.92,,,3,0.4,Straw,M,52.5,5,2.6,185,1,0.8,Straw,0,Absent
+399,Americana,NY,COLOMBIA,Tertiaries,17,Elliptic,Attenuate,Acuminate,N,106,277,2.61,48,0.17,5,2,Amber,F,25,4.5,5.7,74,3,2.4,Straw,2.3,Amber
+276,Americana,MO (WFU dup.?),PERU,Secondaries,30,Elliptic,Acute,Apiculate,N,180,381,2.12,59,0.15,5,0.8,Amber,M,14.5,3,2.3,326,4,0.8,Straw,1.5,Amber
+20,Americana,US,BRAZIL,Tertiaries,8,Elliptic,Acute,Apiculate,N,111.5,228,2.04,,,6,1.3,Amber,M,9,,3.3,167,2,3,Straw,2.4,Straw
+19,Americana,US,BRAZIL,Tertiaries,15,Elliptic,Acute,Acute,N,165.5,337,2.04,56,0.17,3,0.6,Amber,F,6,8,6,276,4,1,Straw,1.5,Amber
+6,Americana,US,VENEZUELA,,8,,,,,116,233,2.01,44,,6,1.5,Straw,F,45,6,,103,4,3.2,Straw,2.6,Amber
+462,Americana,NY,VENEZUELA,Tertiaries,11,Elliptic,Truncate,Apiculate,N,136,204,1.5,41,0.2,6,0.9,Amber,F,14,3.5,5.2,117,4,2,Straw,1.9,Amber
+464,Americana,NY,VENEZUELA,Tertiaries,14,Elliptic,Acute,Acute,N,76,133,1.75,45,0.34,6,1.7,Amber,F,13,3,4.7,104,4,2.3,Amber,1.9,Amber
+465,Americana,NY,VENEZUELA,Secondaries,25,Elliptic,Acute,Acute,N,123,233,1.89,56,0.24,6,0.5,Amber,F,47,4,9,95,4,1.7,Amber,1.4,Amber
+452,Americana,NY,VENEZUELA,Tertiaries,23,Elliptic,Acute,Apiculate,N,130,269,2.07,51,0.19,5,1.1,Amber,M,17,3,2,208,5,1.5,Straw,1.5,Amber
+453,Americana,NY,VENEZUELA,Secondaries,7,Elliptic,Acute,Apiculate,N,104,205,1.97,46,0.22,6,0.9,Amber,M,19,2,3,158,6,1.7,Straw,1.7,Straw
+451,Americana,NY,VENEZUELA,Secondaries,11,Elliptic,Acute,Apiculate,Y,92,261,2.84,47,0.18,5,1.4,Amber,F,38,3,5,171,8,1.7,Straw,2,Amber
+12,Americana,US,COLOMBIA,,23,,,,,153,286,1.87,,,,,Brown,M,29,4,,196,3,2.1,Straw,2.2,Brown
+392,Americana,NY,COLOMBIA,,20,Elliptic,Acute,Acute,N,163,277,1.7,45,0.16,,,,M,,,2.5,143,3,2.9,Straw,2.6,Straw
+387,Americana,NY,COLOMBIA,Secondaries,16,Elliptic,Attenuate,Apiculate,N,94,201,2.14,,,6,2.1,Amber,F,13,4,4.6,170,9,2.4,Straw,1.6,Amber
+395,Americana,NY,COLOMBIA,Tertiaries,15,Elliptic,Acute,Apiculate,N,114.5,228,1.99,40,0.18,5,1.2,Amber,F,17,4,6.5,196,2,1.5,Straw,0.7,Amber
+404,Americana,NY,BOLIVIA,,8,Lanceolate,Acute,Acuminate,N,75,200,2.67,39,0.195,,,,M,17,4,2,163,3,0.9,Straw,0.5,Amber
+3,Americana,US,VENEZUELA,,25,,,,,,152,,41,,6,0.6,Straw,F,,,,183,2,1.7,Straw,2,Straw
+377,Americana,NY,VENEZUELA,,19,Elliptic,Acute,Acuminate,N,126,280,2.22,44,0.16,,,,F,57,4,5.5,286,2,2.3,Straw,2.7,Amber
+450,Americana,NY,VENEZUELA,Tertiaries,18,Elliptic,Acute,Acute,N,139,276,1.99,,,3,1.6,Straw,M,30,4,2,177,3,1.3,Straw,2.3,Straw
+466,Americana,NY,VENEZUELA,,20,Elliptic,Acute,Acute,N,135,295,2.19,47,0.16,,,,F,23,2.5,5.5,223,3,2,Straw,2.1,Straw
+391,Americana,NY,COLOMBIA,Secondaries,39,Elliptic,Truncate,Acute,N,214,335.5,1.57,50,0.15,6,1.8,Amber,M,22,4,2.5,110,4,3.8,Straw,3,Amber
+4,Americana,US,VENEZUELA,,12,,,,,105,169,1.61,32,,0,0,Absent,M,8,5,,100,2,2.7,Straw,2.3,Straw
+310,Americana,BH (WFU dup.?),VENEZUELA,Tertiaries,23,Elliptic,Truncate,Apiculate,N,171,315,1.84,49,0.16,2,1,Amber,F,13,2.5,3.5,81,3,2.4,Straw,2.1,Straw
+449,Americana,NY,VENEZUELA,Secondaries,15,Elliptic,Attenuate,Acute,N,109,274,2.51,45,0.16,6,1,Amber,M,33,3.5,2.5,174,4,2,Straw,3,Straw
+265,Americana,HUA (WFU dup.?),COLOMBIA,Secondaries,15,Ovate,Acute,Acute,N,111,166,1.5,44,0.27,2,1.4,Amber,F,13,4,5,151,6,2.2,Straw,1.5,Brown
+393,Americana,NY,COLOMBIA,Secondaries,15,Elliptic,Acute,Acute,N,92,162,1.76,,,4,1.3,Amber,F,7,3,6,199,7,2,Straw,2.2,Amber
+402,Americana,NY,BOLIVIA,Tertiaries,16,Elliptic,Acute,Acuminate,N,120,224,1.87,49,0.22,0,0,Absent,F,16,2.5,5.5,214,3,1.3,Straw,1,Amber
+39,Americana,US,BOLIVIA,,20,Elliptic,Truncate,Acuminate,N,172,339,1.97,,,,,,F,17,5,2.5,127,3,1.5,Straw,1,Amber
+26,Americana,US,PERU,,14,Elliptic,Truncate,,,135,,,,,,,,M,37,6,2.2,218,2,1.8,Straw,2.6,Amber
+29,Americana,US,PERU,Tertiaries,17,Lanceolate,Acute,Acute,N,174,449,2.58,,,0,0,Absent,F,26,3.5,5,201,3,1.3,Amber,2.5,Amber
+271,Americana,MO (WFU dup.?),PERU,Tertiaries,11,Elliptic,Acute,Acute,N,107,264,2.47,,,2,0.8,Straw,M,25,4,,,3,1,Straw,1.7,Amber
+28,Americana,US,PERU,Tertiaries,20,Lanceolate,Acute,Acute,N,169,484,2.86,,,0,0,Absent,M,10,3,3,102,4,2,Amber,2,Amber
+495,Americana,NY,PERU,Tertiaries,23,Elliptic,Acute,Apiculate,Y,188,442,2.35,,,4,0.1,Amber,F,21,3,4,261,4,1.4,Amber,1,Amber
+269,Americana,MO (WFU dup.?),PERU,Tertiaries,20,Elliptic,Acute,Acute,N,179,383,2.14,,,2,0.9,Amber,M,18,,2,146,5,1.2,Straw,1.4,Amber
+268,Americana,MO (WFU dup.?),PERU,Secondaries,12,Elliptic,Attenuate,Acute,N,92,232,2.52,51,0.22,6,0.7,Amber,F,14,2.5,4,184,5,0.6,Amber,1,Amber
+498,Americana,NY,PERU,Secondaries,29,Elliptic,Attenuate,Acute,,190,598,3.15,,,0,0,Absent,M,15,3,2.9,217,6,1.2,Amber,1.6,Amber
+270,Americana,MO (WFU dup.?),PERU,Secondaries,23,,Acute,,,184,,,,,2,0.5,Amber,F,12,3,6,180,8,0.7,Straw,1.2,Amber
+275,Americana,MO (WFU dup.?),PERU,Secondaries,28,Elliptic,Acute,Acute,N,206,554,2.69,62,0.11,0,0,Absent,M,40,3.5,2.1,260,,1.1,Straw,1.9,Straw
+494,Americana,NY,PERU,,25,Elliptic,Acute,Apiculate,N,228,395,1.73,55,0.14,,,,F,,,4.3,150,2,1.4,Amber,1,Amber
+23,Americana,US,PERU,Tertiaries,11,Elliptic,Acute,Acuminate,Y,112,229,2.04,43,0.19,0,0,Absent,F,42,6,4.5,138,1,1.8,Amber,0,Absent
+24,Americana,US,PERU,Tertiaries,12,Elliptic,Acute,Apiculate,Y,106,243,2.29,49,0.2,2,0.2,White,F,50,8.5,4.5,205,2,0.8,Amber,1,Straw
+32,Americana,US,PERU,,42,Elliptic,Acute,Acute,N,144,329,2.28,52,0.16,,,,M,20,4,1.7,219,5,1.6,Straw,1.9,Amber
+412,Americana,NY,COLOMBIA,Secondaries,8,Elliptic,Acute,Acute,N,78.5,163.5,2.08,31,0.19,6,,Amber,M,13,2.5,3.1,112,13,0.5,Straw,0.9,Amber
+33,Americana,US,PERU,Tertiaries,19,Elliptic,Acute,,,171,292,1.71,,,0,0,Absent,M,8,1.5,1.5,126,4,1.2,Straw,1.3,Straw
+278,Americana,MO (WFU dup.?),BOLIVIA,Secondaries,16,Elliptic,Acute,Acuminate,N,127,326,2.57,38,0.12,0,0,Absent,M,11,3,3,231,2,1.1,Straw,0.9,Straw
+383,Americana,NY,BOLIVIA,Tertiaries,12,Lanceolate,Acute,Acuminate,N,113,326,2.88,,,0,0,Absent,M,28,4,2.3,192,2,1.5,Amber,1.3,Amber
+335,Americana,NY,BOLIVIA,Secondaries,15,Lanceolate,Attenuate,Acute,N,79,234,2.96,33,0.14,2,0.6,White,M,22,3,1.5,122,2,0.7,Straw,1.1,Straw
+386,Americana,NY,BOLIVIA,Secondaries,13,Elliptic,Attenuate,Acute,N,102,333,3.26,24,0.07,0,0,Absent,F,24,5.5,4,97,3,1.1,Straw,1,Amber
+334,Americana,NY,BOLIVIA,Secondaries,8,Lanceolate,Attenuate,Acuminate,N,92,251,2.73,37,0.15,0,0,Absent,F,23,4,5.4,89,5,0.2,Straw,0.7,Amber
+38,Americana,US,BOLIVIA,Tertiaries,16,Lanceolate,Acute,Acute,Y,84,254,3.02,51,0.2,,,,,,,,,,,,,
+378,Americana,NY,PERU,Secondaries,16,Elliptic,Acute,Acuminate,N,136,282,2.07,50,0.18,4,1.2,Amber,F,15,4,5,210,2,1.6,Amber,2,Amber
+34,Americana,US,PERU,Tertiaries,14,Elliptic,Acute,Acuminate,Y,107,207,1.93,53,0.26,6,0.7,Amber,M,30,5,3,169,3,3.1,Straw,2,Amber
+35,Americana,US,PERU,Secondaries,14,Elliptic,Acute,Acuminate,Y,111,244,2.2,,,6,1.1,Amber,M,13,5,2.9,160,3,2.8,Straw,2.7,Amber
+36,Americana,US,PERU,Tertiaries,17,Elliptic,Acute,Acuminate,Y,149,298,2,52,0.17,6,0.9,Amber,F,29,8,4.2,194,3,2.1,Amber,2.1,Brown
+496,Americana,NY,PERU,Secondaries,32,Elliptic,Acute,Acute,N,122.5,288,2.35,46,0.16,6,1.6,Amber,M,15,3,3,102,3,2,Straw,2.3,Amber
+37,Americana,US,PERU,,16,Elliptic,Acute,Acute,N,83,190,2.29,50,0.26,,,,F,43,8,5,203,3,2.2,Straw,1.6,Amber
+460,Americana,NY,PERU,Secondaries,23,Elliptic,Acute,Acute,N,90,228,2.53,,,5,0.9,Amber,M,13,3,4.5,60,4,2.4,Amber,2.3,Straw
+25,Americana,US,PERU,Tertiaries,19,Elliptic,Acute,Acuminate,Y,135,264,1.96,54,0.2,6,1.2,Amber,M,18,2.5,2.2,251,5,2.7,White,2,White
+304,Americana,WFU,PERU,Secondaries,7,Elliptic,Acute,Acuminate,Y,135,256,1.9,51,0.2,5,1.2,Amber,M,31,7.5,2.9,120,6,3.8,Straw,0.9,Amber
+31,Americana,US,PERU,Secondaries,22,Elliptic,Attenuate,Acute,N,175,362,2.07,,,6,1.2,Amber,F,13,2,4,212,6,2,Straw,1.3,Brown
+371,Americana,NY,PERU,Secondaries,11,Elliptic,Acute,Acute,N,125,218,1.744,47,0.22,,,,M,16,15,3,253,4,3.1,Straw,1,Amber
+273,Americana,MO (WFU dup.?),PERU,Tertiaries,12,Elliptic,Acute,Acute,N,105,211,2.01,42,0.2,3,0.3,Amber,F,4,3,4.5,,2,0.8,Straw,1,Straw
+290,Americana,MO (WFU dup.?),PERU,Tertiaries,11,Elliptic,Truncate,Acuminate,N,120,261,2.175,49,0.19,3,0.2,Straw,M,10,3,3,146,4,1.1,Straw,0.8,Amber
+289,Americana,MO (WFU dup.?),PERU,Tertiaries,16,Lanceolate,Acute,Acuminate,N,117,305,2.61,59,0.19,6,0.5,Amber,F,13,3.5,6,197,4,0.5,Straw,0.7,Amber
+497,Americana,NY,PERU,Secondaries,28,Elliptic,Truncate,Acute,,158,342,2.16,52,0.15,6,0.5,Amber,F,33,4,5.5,274,4,1,Straw,1,Amber
+398,Americana,NY,COLOMBIA,Secondaries,17,Lanceolate,Attenuate,Acuminate,N,99,307,3.1,46,0.15,2,2.2,Straw,F,,,5.7,177,1,0.7,Amber,0,Absent
+396,Americana,NY,COLOMBIA,Tertiaries,10,Elliptic,Acute,Acuminate,N,96,203,2.11,29,0.14,5,1.5,Straw,M,16,2.5,2.5,242,3,1,Straw,1.3,Amber
+22,Americana,US,BRAZIL,Tertiaries,9,Lanceolate,Acute,Acute,N,75,188,2.51,45,0.24,0,0,Absent,F,28,5,4.9,108,3,1.6,White,0.5,White
+380,Americana,NY,BRAZIL,Tertiaries,15,Elliptic,Acute,Acute,N,117,264,2.26,52,0.2,2,0.8,Amber,F,17,3,4.5,160,3,1.1,Straw,1.1,Straw
+21,Americana,US,BRAZIL,,11,Elliptic,Acute,Apiculate,N,112,208,1.86,,,,,White,M,19,6.5,,176,3,1.3,White,2.3,Straw
+463,Americana,NY,VENEZUELA,,7,Elliptic,Acute,Acuminate,Y,135,287,2.13,44,0.15,,,,F,17,4,6,152,4,3.1,Straw,3.5,Straw
+467,Americana,NY,VENEZUELA,,25,Elliptic,Acute,Acute,,136,255,1.875,36,0.14,,,,F,16,3,6.7,163,4,2.5,Straw,1.5,Straw
+468,Americana,NY,VENEZUELA,Secondaries,19,Elliptic,Truncate,Apiculate,N,140,227,1.62,42,0.19,5,0.5,Amber,F,,,5.5,,,1.6,,,
+388,Americana,NY,COLOMBIA,Secondaries,16,Elliptic,Acute,Acute,N,134,223,1.66,37,0.17,4,0.3,Straw,M,,,3.5,142,2,3.5,Straw,0.25,Straw
+394,Americana,NY,COLOMBIA,Tertiaries,7,Elliptic,Truncate,Blunt,N,108,174,1.61,29,0.17,4,0.7,Amber,F,19,3,3,153,2,2,Straw,2,Amber
+14,Americana,US,ECUADOR,Tertiaries,19,Ovate,Acute,Acute,N,181,347,1.92,60,0.17,6,0.6,Brown,F,,5,9,179,2,2.7,Straw,2,Brown
+337,Americana,NY,ECUADOR,Secondaries,,Elliptic,Acute,Apiculate,N,165,279,1.69,57,0.2,3,1,Amber,F,15,3,8.5,185,3,1.4,Amber,2.3,Amber
+382,Americana,NY,ECUADOR,Tertiaries,25,Elliptic,Truncate,,,205,352,1.72,57,0.16,4,0.9,Amber,M,5,4,3.5,252,3,2,Straw,1.6,Straw
+375,Americana,NY,ECUADOR,Secondaries,17,Elliptic,Acute,Acuminate,N,147,302,2.05,,,3,0.8,Amber,F,10,3,6,66,5,2.1,Straw,1.2,Amber
+373,Americana,NY,ECUADOR,,15,Elliptic,Acute,Acuminate,Y,118,237,2.01,43,0.18,,,,M,28,2,1.8,175,3,3.1,Straw,1.9,Amber
+374,Americana,NY,ECUADOR,,20,Elliptic,Attenuate,Acute,N,109,239,2.19,44,0.18,,,,F,27,2.5,4.5,181,3,4,Straw,1.7,Amber
+413,Americana,NY,BOLIVIA,,18,Lanceolate,Acute,Acute,N,146,369,2.53,57,0.15,,,,M,26,7,3,117,2,1.3,Amber,1.3,Amber
+41,Americana,US,BOLIVIA,Secondaries,11,Lanceolate,Truncate,Acute,N,134,288,2.15,,,6,0.3,Brown,M,,,2,169,,1.1,Straw,,
+17,Americana,US,BRAZIL,Secondaries,12,Elliptic,Truncate,Acute,N,125,265,2.12,48,0.18,2,0.7,Amber,F,17,5,5.2,114,1,1.5,Straw,0,Absent
+15,Americana,US,BRAZIL,Tertiaries,13,Elliptic,Acute,Acute,Y,106,233,1.97,40,0.17,2,0.8,Brown,M,13,5,3.2,167,2,1.8,Straw,1,Amber
+16,Americana,US,BRAZIL,Tertiaries,13,Ovate,Acute,Acute,Y,124,256,2.06,54,0.21,2,0.8,Amber,M,,,,,,,,,
+30,Americana,US,PERU,Secondaries,12,Elliptic,Acute,Acute,N,97,195,2.01,47,0.24,2,0.7,Amber,F,18,2.5,5,325,4,1,Straw,1.7,Amber
+272,Americana,MO (WFU dup.?),PERU,Tertiaries,24,Elliptic,Acute,,,196,368,1.877,52,0.14,3,1.1,Amber,F,15,4,4.5,176,4,1.3,Straw,1.5,Amber
+274,Americana,MO (WFU dup.?),PERU,Secondaries,18,Elliptic,Attenuate,Acute,N,109.5,239,2.18,55,0.23,4,1.1,Amber,F,15,4,4.3,318,5,1.8,Straw,1.7,Amber
+493,Americana,NY,VENEZUELA,Secondaries,10,Elliptic,Acute,Acuminate,,122,263,2.16,35,0.13,5,0.4,Amber,M,,2,2.3,254,,2.9,Straw,3,Straw
+379,Americana,NY (RB duplicate),BRAZIL,,5,Elliptic,Attenuate,Acute,N,,,,,,,,,M,19,2,2,103,1,3.3,Straw,0,Absent
+313,Americana,RB (WFU dup.?),BRAZIL,Secondaries,8,Elliptic,Acute,Acuminate,Y,73,133,1.82,28,0.21,6,0.6,Straw,F,17,3.5,5.3,112,2,2.9,Straw,1.5,Amber
+314,Americana,RB (WFU dup.?),BRAZIL,Secondaries,12,Elliptic,Truncate,Apiculate,N,154.5,270.5,1.75,,,6,0.5,Amber,M,24,3,2.6,146,2,2,Straw,1.5,Amber
+319,Americana,WFU,PERU,Secondaries,28,Elliptic,Truncate,Acuminate,N,191,387,2.03,58,0.15,3,0.5,Amber,M,21,5,2.5,,2,0.6,Straw,1,Straw
+302,Americana,WFU,PERU,Secondaries,15,Obelliptic,Attenuate,Blunt,N,171,331,1.94,52,0.16,0,0,Absent,M,20,2.5,2.7,107,5,1.2,Straw,1.4,Straw
+332,Americana,WFU,PERU,Tertiaries,24,Ovate,Attenuate,Apiculate,N,163,291,1.79,47,0.16,2,0.8,Amber,Indet,,,,,,,,,
+333,Americana,WFU,PERU,Tertiaries,11,Lanceolate,Attenuate,Acuminate,N,71,183,2.58,47,0.26,3,1.4,Straw,Indet,,,,,,,,,
+27,Americana,US,PERU,Secondaries,14,Elliptic,Acute,Acute,N,104,198,1.9,52,0.26,2,0.6,Brown,F,10,2,4.5,134,3,1.7,Amber,1.5,Amber
+42,Americana,US,BOLIVIA,Tertiaries,11,Lanceolate,Acute,Acute,N,,214,,,,2,0.6,White,F,8.5,5,3.9,109,1,1.1,Straw,0,Absent
+277,Americana,MO (WFU dup.?),BOLIVIA,Tertiaries,14.5,Elliptic,Acute,,,121,303,2.5,,,0,0,Absent,F,2,7,6.5,120,2,1.1,Straw,1.6,Straw
+384,Americana,NY,BOLIVIA,Secondaries,8,Elliptic,Truncate,Apiculate,N,75,130,1.73,40,0.31,0,0,Absent,F,6,3,3.5,94,2,0.8,Straw,1.4,Amber
+403,Americana,NY,BOLIVIA,,15,Lanceolate,Acute,Acuminate,N,88.5,261,2.95,49,0.19,,,,F,17,5,5.5,121,2,0.9,Straw,1.1,Amber
+410,Americana,NY,BOLIVIA,,13,Lanceolate,Acute,Acute,N,102,257,2.52,43,0.17,,,,F,11,2,3.3,180,2,0.9,Straw,1,Amber
+385,Americana,NY,BOLIVIA,Tertiaries,,Lanceolate,Truncate,Acute,N,138,370,2.68,44,0.12,0,0,Absent,M,20,3,2.2,247,3,1.2,Straw,1,Amber
+401,Americana,NY,BOLIVIA,Secondaries,5,Elliptic,Acute,Acute,N,117,232.5,1.99,43,0.18,0,0,Absent,M,20,3,2.5,109,3,1.1,Straw,0.5,Amber
+415,Americana,NY,BOLIVIA,Secondaries,9,Lanceolate,Attenuate,Acuminate,N,77,267,3.47,,,0,0,Absent,F,14,4.5,4.5,86.5,3,1,Straw,1.4,Straw
+417,Americana,NY,BOLIVIA,Secondaries,19,Lanceolate,Acute,Acuminate,N,75,207.5,2.77,46,0.22,2,0.5,Straw,F,12,2.5,4.7,94,3,1,Straw,0.8,Amber
+340,Americana,NY,BOLIVIA,Tertiaries,24,Elliptic,Acute,Acute,N,100,293,2.93,,,0,0,Absent,M,18,3,2.4,158,4,1.1,Straw,1,Straw
+414,Americana,NY,BOLIVIA,Tertiaries,14,Lanceolate,Attenuate,Acute,N,133,316,2.38,,,0,0,Absent,F,17,3.5,4.9,206,4,1,Straw,2.2,Straw
+416,Americana,NY,BOLIVIA,Secondaries,14,Elliptic,Acute,Acuminate,N,130,280,2.15,44,0.16,0,0,Absent,M,21.5,6,2.3,171,4,1.5,Straw,0.9,Straw
+418,Americana,NY,BOLIVIA,Secondaries,20,Elliptic,Acute,Acute,N,133,312.5,2.35,49,0.16,0,0,Absent,F,15,3.5,5,149,4,0.9,Straw,2,Straw
+458,Americana,NY,BOLIVIA,Tertiaries,14,Elliptic,Acute,Acuminate,N,125,324,2.592,55,0.17,0,0,Absent,Indet,,,,,,,,,
+266,Americana,HUA (WFU dup.?),COLOMBIA,Secondaries,8,Lanceolate,Attenuate,Acuminate,N,42,152,3.62,,,2,1.8,Amber,F,25,2.5,5.5,135,1,1.1,Straw,0,Absent
+11,Americana,US,COLOMBIA,,26,,,,,164,378,2.3,53,0.14,2,1.7,Straw,M,38,5,,198,5,2,Amber,1.9,Amber
+267,Americana,HUA (WFU dup.?),COLOMBIA,Secondaries,9,Elliptic,Acute,Acuminate,N,84,179,2.13,42,0.23,5,0.9,Amber,F,15,2.5,6.5,160,5,1.2,Straw,0.8,Straw
+397,Americana,NY,COLOMBIA,Tertiaries,21,Elliptic,Acute,,,153,337,2.2,52,0.15,2,2,Amber,M,20,2,2.4,169,6,1.8,Amber,1,Amber
+9,Americana,US,COLOMBIA,,7,,,,,89,188,2.11,38,,5,1.9,Amber,F,32,5.5,,275,8,1.1,Straw,1.6,Straw
+411,Americana,NY,COLOMBIA,Tertiaries,12,Elliptic,Acute,Acute,N,134,246,1.84,44,0.18,5,1.4,Amber,F,11,2,4,89,10,1.6,Amber,2.2,Amber
+5,Americana,US,VENEZUELA,,15,,,,,134,238,1.65,,,5,1.4,Amber,F,9,10.5,,123,3,4.1,Straw,2.8,Amber
+461,Americana,NY,PERU,Secondaries,7,Elliptic,Truncate,Acute,N,82,141,1.72,25,0.18,5,0.5,Straw,M,14,2,2.5,197,4,1,Straw,2.2,Straw
+2,Americana,US,VENEZUELA,,20,,,,,,,,,,,,White,F,13,5,,152,1,2.8,Straw,0,Absent
+489,Americana,NY,VENEZUELA,,15,Elliptic,Truncate,Apiculate,N,62,,,40,,,,,F,20,3,4,110,3,1,Straw,2,Amber
+381,Americana,NY,ECUADOR,,17,Elliptic,Attenuate,Apiculate,Y,78,194,2.49,38,0.2,,,,F,,,5.5,314,2,1.1,Amber,1,Amber
+13,Americana,US,ECUADOR,Tertiaries,19,Obovate,Attenuate,Acuminate,Y,135,281,2.08,41,0.15,0,0,Absent,F,14,3,8,187,2,1.8,Amber,1.5,Brown
+400,Americana,NY,VENEZUELA,Secondaries,17,Elliptic,Truncate,Acute,N,140,291,2.08,45,0.15,6,0.6,Amber,F,20,3.5,7,194,2,2.2,Straw,1.9,Straw
+492,Americana,NY,VENEZUELA,Secondaries,12,Elliptic,Acute,Acute,N,119,229,1.92,46,0.2,3,0.2,Amber,F,15,2,3.5,130,3,1.7,Straw,1,Amber
+490,Americana,NY,VENEZUELA,Tertiaries,8,Elliptic,Acute,Acute,N,92.5,236.5,2.56,42,0.18,4,0.6,Amber,M,15,,1.7,121,4,2,Straw,1.5,Amber
+1,Americana,US,PANAMA,Tertiaries,8,Lanceolate,Acute,Acuminate,Y,,258,,,,0,0,Absent,F,38,4.5,6.5,148,1,0.5,Straw,0,Absent
+390,Americana,NY,GUYANA,Secondaries,12,Lanceolate,Acute,Acute,Y,82.5,231,2.8,51,0.22,2,0.7,Amber,F,18,2,5.2,141,1,0.5,Brown,0,Absent
+10,Americana,US,COLOMBIA,,19,,,,,110,184,1.67,36,0.2,2,1.1,Amber,F,4,4,,228,2,1.8,Amber,1.8,Amber
+339,Americana,NY,BOLIVIA,Tertiaries,25,Elliptic,Acute,,,161,450,2.8,,,0,0,Absent,F,35,7,4.5,200,3,1,Straw,0.5,Amber
+7,Americana,US,COLOMBIA,,12,,,,,93,147,1.58,29,0.2,1,,Amber,M,11,2.5,,195,4,1.5,Straw,1.1,Amber
+40,Americana,US,BOLIVIA,,13,Elliptic,Acute,Acute,N,123,293,2.38,,,,,,M,26,4,1.9,165,4,1,Straw,1.6,Amber
+8,Americana,US,COLOMBIA,,20,,,,,115,176,1.53,37,,2,1,Amber,M,11,5.5,,260,,1.9,Straw,2.5,Brown
+480,Caracassana,NY,VENEZUELA,Secondaries,9,Lanceolate,Acute,Acuminate,N,99,258,2.61,,,2,1.4,Amber,F,30,3,6.5,128,1,1.4,Amber,0,Absent
+487,Caracassana,NY,VENEZUELA,Secondaries,9,Elliptic,Acute,Acuminate,N,60,139,2.32,36,0.26,2,2.1,Amber,M,18,2,4,134,2,0.5,Amber,0.9,Amber
+486,Caracassana,NY,VENEZUELA,Secondaries,8,Lanceolate,Attenuate,Acuminate,N,80,,,,,4,0.9,Amber,M,17,3,3.5,133,8,1,Straw,0.9,Amber
+484,Caracassana,NY,VENEZUELA,Tertiaries,10,Elliptic,Truncate,Acute,N,100,223,2.23,36,0.16,2,1.6,Amber,F,25,3,6.5,205,1,0.4,Straw,0,Absent
+483,Caracassana,NY,VENEZUELA,,12,Lanceolate,Truncate,Acute,N,109.5,297,2.71,52,0.18,,,,F,34,3,8.5,181,1,1.3,Amber,0,Absent
+485,Caracassana,NY,VENEZUELA,Secondaries,13,Lanceolate,Truncate,Acuminate,N,105,257,2.45,51,0.2,2,1.8,Amber,F,18,3,8.5,109,2,0.4,Amber,0.5,Amber
+336,Caracassana,NY,VENEZUELA,Tertiaries,17,Lanceolate,Truncate,Acute,N,135,357,2.64,52,0.15,0,0,Absent,F,,,,,,,,,
+482,Caracassana,NY,VENEZUELA,Tertiaries,14,Elliptic,Acute,Acuminate,Y,90,205,2.28,,,2,1.8,Straw,M,,,3.5,176,1,0.8,Amber,0,Absent
+481,Caracassana,NY,VENEZUELA,Tertiaries,11,Lanceolate,Acute,Acute,N,95.5,234,2.45,51,0.22,4,1.7,Amber,M,54,3,2.3,203,1,1,Amber,0,Absent
+488,Caracassana,NY,GUADELOUPE,Secondaries,18,Lanceolate,Truncate,Acuminate,N,127,329,2.59,47,0.14,2,1.5,Amber,F,36,3,7.3,192,3,1,Amber,1,Amber
+474,Cumingiana,NY,PANAMA,Secondaries,5,Lanceolate,Acute,Acuminate,Y,71,237,3.34,52,0.22,2,2.6,Amber,M,15,1.5,4,102.5,5,0.8,Amber,1,Amber
+60,Cumingiana,US,COLOMBIA,Secondaries,12,Lanceolate,Acute,Acute,N,60,199,3.32,37,0.19,2,2.2,Brown,M,12,1.5,2.3,125,4,1,Straw,1.5,Straw
+57,Cumingiana,US,VENEZUELA,Tertiaries,21,Elliptic,Truncate,Acute,N,115,292,2.53,54,0.18,5,0.6,Amber,F,31,2,10,137,1,0.6,Straw,0,Absent
+61,Cumingiana,US,COLOMBIA,Secondaries,18,Lanceolate,Acute,Acuminate,N,42,221,5.26,60,0.27,2,2.3,White,F,41,2.5,8,176,1,0.6,White,0,Absent
+91,Cumingiana,US,PERU,Secondaries,11,Elliptic,Acute,Acuminate,N,59,147,2.49,33,0.22,6,1,Amber,F,18.5,2,5.5,56,3,0.2,Amber,0.7,Amber
+53,Cumingiana,US,PANAMA,Tertiaries,16,Lanceolate,Acute,Acuminate,Y,73,229,3.14,,,0,0,Absent,F,31,4.5,7.5,126,1,0.5,Straw,0,Absent
+88,Cumingiana,US,ECUADOR,Tertiaries,12,Elliptic,Truncate,Blunt,N,132.5,255,1.92,,,0,0,Absent,F,11,3,8.7,171,1,0.3,Amber,0,Absent
+83,Cumingiana,US,ECUADOR,Secondaries,,Elliptic,Truncate,Acute,N,73,177,2.42,37,0.21,6,1.1,Amber,F,,,5.5,69,2,0.8,Amber,0.7,Amber
+71,Cumingiana,US,ECUADOR,Tertiaries,13,Elliptic,Truncate,Acuminate,Y,108,259,2.4,45,0.17,2,1.4,White,F,40,3,6.5,148,1,0.6,Straw,0,Absent
+72,Cumingiana,US,ECUADOR,Tertiaries,19,Elliptic,Truncate,,,119,265,2.23,,,0,0,Absent,F,47,2.5,8.5,84,2,0.7,Straw,0.7,Amber
+70,Cumingiana,US,ECUADOR,Tertiaries,12,Elliptic,Truncate,Acuminate,Y,118,211,1.79,43,0.2,6,1,Straw,M,33,5,2,132,2,0.5,Amber,0.5,Amber
+67,Cumingiana,US,ECUADOR,Tertiaries,9,Elliptic,Truncate,Acuminate,Y,52,122,2.35,,,0,0,Absent,F,31,4.5,7.8,172,2,0.5,Straw,0.8,Amber
+69,Cumingiana,US,ECUADOR,Tertiaries,11,Elliptic,Truncate,Acuminate,Y,75,170,2.27,,,4,0.8,Amber,F,24,4,5.2,100,2,0.6,Amber,0.7,Amber
+68,Cumingiana,US,ECUADOR,Tertiaries,7,Lanceolate,Acute,Acuminate,Y,55.5,139,2.5,30,0.22,3,1.7,White,M,22.5,2,2.4,72,5,0.6,Straw,1.9,Straw
+73,Cumingiana,US,ECUADOR,Secondaries,11,Lanceolate,Truncate,Acuminate,Y,100,235,2.35,35,0.15,2,1.5,Amber,F,22,2.5,6,62,1,0.9,Straw,0,Absent
+87,Cumingiana,US,ECUADOR,Secondaries,10,Elliptic,Truncate,Acute,N,98,246,2.51,45,0.18,6,0.8,Amber,F,28.5,3.5,6.5,219,1,0.6,Amber,0,Absent
+75,Cumingiana,US,ECUADOR,Tertiaries,8,Lanceolate,Truncate,Acute,Y,88,179,2.03,30,,6,1,Straw,F,50,4,7,244,2,0.4,Straw,1,Straw
+49,Cumingiana,US,PANAMA,Tertiaries,11,Lanceolate,Acute,Acuminate,Y,80,241,3.01,52,0.26,,,,M,31,4,3,109,2,1.1,Straw,1.6,Straw
+82,Cumingiana,US,ECUADOR,Tertiaries,7,Elliptic,Truncate,Acute,N,97,188,1.94,40,0.21,0,0,Absent,M,11,2,4.2,262,2,0.9,Amber,1.2,Straw
+74,Cumingiana,US,ECUADOR,Tertiaries,8,Elliptic,Truncate,Acuminate,Y,98,171,1.74,35,0.2,2,0.7,Straw,F,51,4,7.5,88,3,0.9,Straw,0.6,Amber
+93,Cumingiana,US,BRAZIL,Secondaries,12,Elliptic,Truncate,Acute,N,85,177,2.08,33,0.19,4,1.2,White,F,16,1.5,2.2,33,1,0.8,Straw,0,Absent
+58,Cumingiana,US,VENEZUELA,Tertiaries,12,Elliptic,Truncate,Acute,,113,260,2.3,31,0.12,0,0,Absent,F,,,10,153,1,0.8,Straw,0,Absent
+92,Cumingiana,US,PERU,Secondaries,8,Elliptic,Truncate,Acute,N,68,148,2.18,,,6,1.6,Amber,F,34,2.5,6,119,1,0.6,Amber,0,Absent
+59,Cumingiana,US,VENEZUELA,Tertiaries,20,Lanceolate,Acute,Acuminate,Y,74,265,3.53,53,0.2,,,,M,25,2.5,2.5,70,2,0.4,Straw,1.2,Brown
+300,Cumingiana,WFU,PERU,Secondaries,7,Lanceolate,Acute,Acuminate,Y,94,292,3.11,51,0.17,3,0.4,Amber,M,30,3,3,123,0,0,Absent,0,Absent
+62,Cumingiana,US,COLOMBIA,Tertiaries,21,Oblanceolate,Acute,Blunt,N,103,296,2.87,,,3,1,White,F,39,3,7.7,97,2,1.4,Straw,1.6,Straw
+90,Cumingiana,US,PERU,Secondaries,6,Elliptic,Truncate,Acuminate,N,70,159,2.27,39,0.25,6,1.6,Straw,F,19,3,7,164,1,0.8,Amber,0,Absent
+89,Cumingiana,US,PERU,Secondaries,19,Elliptic,Truncate,Blunt,N,134,,,,,2,0.9,Amber,M,23,2.5,3.3,151,3,1.2,Brown,0.6,Amber
+311,Cumingiana,BH (WFU dup.?),VENEZUELA,Secondaries,3,Elliptic,Truncate,Acuminate,N,59,131,2.22,29,0.22,6,3.9,Straw,F,47.5,2,9.2,101,5,1.5,Straw,1.4,Straw
+312,Cumingiana,BH (WFU dup.?),VENEZUELA,Tertiaries,5,Lanceolate,Acute,Acuminate,N,55,169,3.07,33,0.2,6,1.9,Straw,M,32,2.5,3,123,13,1.1,Straw,1,Straw
+48,Cumingiana,US,PANAMA,Tertiaries,9,Lanceolate,Acute,Acuminate,Y,93,285,3.06,60,0.21,0,0,Absent,F,20,3,5.1,94,1,0.8,Amber,0,Absent
+50,Cumingiana,US,PANAMA,Tertiaries,10,Lanceolate,Attenuate,,,48,220,4.58,52,0.24,0,0,Absent,F,18,3,6,80,1,0.5,Amber,0,Absent
+65,Cumingiana,US,COLOMBIA,Tertiaries,15,Elliptic,Acute,Acute,N,74,168,2.27,38,0.23,0,0,Absent,F,20,5,8.5,149,1,0.5,Straw,0,Absent
+66,Cumingiana,US,ECUADOR,Secondaries,12,Elliptic,Truncate,Acute,N,66,112,1.7,26,0.23,0,0,Absent,M,39,4,2.5,287,1,1.2,Amber,0,Absent
+77,Cumingiana,US,ECUADOR,Secondaries,10,Lanceolate,Acute,Acute,,60.5,176,2.91,35,0.2,0,0,Absent,M,26,2.5,3.4,111,1,0.5,,0,Absent
+47,Cumingiana,US,PANAMA,Tertiaries,7,Lanceolate,Acute,Acuminate,Y,79,245,3.1,58,0.17,2,2.6,Straw,M,37,3.5,6,182,1,1.6,Straw,0,Absent
+56,Cumingiana,US,TRINIDAD,Tertiaries,10,Lanceolate,Truncate,,,83,240,2.89,47,0.2,2,1.3,Amber,F,10,4.5,7.5,193,1,1.2,Amber,0,Absent
+78,Cumingiana,US,ECUADOR,Tertiaries,9,Lanceolate,Acute,Acute,N,50,140,2.8,,,4,0.9,Brown,F,23,2.5,6,120,1,0.9,Amber,0,Absent
+84,Cumingiana,US,ECUADOR,Secondaries,11,Lanceolate,Acute,Acute,N,61.5,185,3.01,39,0.211,6,0.9,Straw,M,32.5,2,4.5,109,1,0.9,Amber,0,Absent
+63,Cumingiana,US,COLOMBIA,Secondaries,12,Lanceolate,Acute,Acuminate,Y,99,274,2.77,43,0.16,,,,M,52,4,2.5,239,1,1.1,Straw,0,Absent
+81,Cumingiana,US,ECUADOR,Secondaries,9,Lanceolate,Truncate,Acuminate,N,79,180,2.28,33,0.18,,,,F,31,3,6.2,146,1,0.5,Amber,0,Absent
+85,Cumingiana,US,ECUADOR,Secondaries,14,Lanceolate,Truncate,Acuminate,N,137,310,2.26,52,0.17,,,,F,31.5,2.5,6.4,159,1,0.6,Amber,0,Absent
+54,Cumingiana,US,PANAMA,Tertiaries,5,Lanceolate,Acute,Acuminate,Y,68,226,3.32,,,0,0,Absent,F,,,6.5,78,2,1,Straw,1.1,Amber
+80,Cumingiana,US,ECUADOR,Tertiaries,8,Lanceolate,Acute,Acute,N,68.5,189,2.76,35,0.19,0,0,Absent,M,16,2,2.3,148,2,0.9,Amber,0.7,Straw
+43,Cumingiana,US,PANAMA,Tertiaries,9,Lanceolate,Acute,Acuminate,Y,88,265,3,41,0.15,2,2.7,White,M,16,1.5,4,164,2,0.9,Brown,1.5,White
+45,Cumingiana,US,PANAMA,Secondaries,7,Lanceolate,Acute,Acuminate,Y,64,240,3.19,,,2,2.3,Straw,F,22,2.5,6.8,110,2,1.3,Straw,1.4,Amber
+51,Cumingiana,US,PANAMA,Tertiaries,8,Lanceolate,Truncate,Acuminate,Y,78,221,2.83,,,2,2,Brown,F,13,3,5.5,60,2,0.5,Straw,0.5,Straw
+64,Cumingiana,US,COLOMBIA,Secondaries,9,Elliptic,Acute,Acute,N,89,185,2.08,,,2,1.1,Amber,M,16,2,4.5,199,2,0.8,Amber,0.9,Amber
+79,Cumingiana,US,ECUADOR,Secondaries,10,Lanceolate,Acute,Acuminate,Y,67,216,3.22,39,0.18,2,0.8,Straw,F,32.5,4.5,5,96,2,0.7,Amber,0.3,Straw
+86,Cumingiana,US,ECUADOR,,14,Elliptic,Truncate,Acute,N,75.5,159,2.11,30,0.19,,,,F,14,2,5.5,112,2,0.4,Straw,0.9,Straw
+44,Cumingiana,US,PANAMA,Tertiaries,8,Lanceolate,Acute,Acuminate,N,55.5,178,3.2,46,0.26,2,0.3,White,M,10,2.5,2.1,110,3,0.6,Straw,1.5,Amber
+55,Cumingiana,US,PANAMA,Tertiaries,5,Lanceolate,Acute,Acute,N,,188,,,,3,2.3,Straw,M,21,1.5,4,154,3,2.2,Amber,1.2,Straw
+52,Cumingiana,US,PANAMA,Tertiaries,14,Lanceolate,Acute,Acuminate,Y,87,222,2.55,46,0.21,,,,F,32,2.5,8.5,128,4,0.8,Amber,1.8,Straw
+76,Cumingiana,US,ECUADOR,,10,Elliptic,Acute,Acute,N,75,168,2.24,32,0.19,,,,F,36,2.5,5.5,58,4,0.3,Straw,0.6,Straw
+46,Cumingiana,US,PANAMA,Secondaries,8,Lanceolate,Attenuate,Acuminate,Y,32,129,4.03,45,0.35,2,2.3,Amber,F,,,8,144,,0.7,Straw,,
+134,Dugandii,US,BRAZIL,Tertiaries,9,Lanceolate,Truncate,Acute,N,96,,,,,6,1,Amber,F,24,2.5,8.6,226,5,0.5,Amber,1.5,Amber
+369,Dugandii,NY,PERU,Secondaries,18,Elliptic,Acute,Acute,N,168,373,2.22,66,0.18,3,1.1,Amber,F,18,2,7.5,261,5,0.8,Straw,1.5,Amber
+127,Dugandii,US,BRAZIL,Tertiaries,13,,Truncate,Acute,N,,279,,,,6,,,M,23,2,2.4,182,5,1.2,Straw,1.3,Amber
+126,Dugandii,US,BRAZIL,Tertiaries,12,Lanceolate,Truncate,Apiculate,N,157,376,2.39,55,0.15,6,0.8,Amber,F,,,8.5,148,,0.8,Straw,,
+280,Dugandii,MO (WFU dup.?),BOLIVIA,Tertiaries,6,Lanceolate,Truncate,Acuminate,Y,75,253,3.37,47,0.19,2,2.7,Amber,F,53,2.5,5.2,89,1,0.7,White,0,Absent
+459,Dugandii,NY,PERU,Secondaries,21,Lanceolate,Truncate,Acute,N,111,340,3.06,50,0.15,6,0.4,Amber,M,28,1.5,2,226,5,0.7,Straw,1,Straw
+125,Dugandii,US,PERU,,9,Lanceolate,Truncate,Acuminate,N,131.5,403,3.06,54,0.13,,,,M,20,2.5,3,199,6,0.7,Straw,1.7,Straw
+94,Dugandii,US,ECUADOR,Tertiaries,9,Elliptic,Truncate,Acute,N,,377,,,,6,1.2,Amber,,,,,,,,,,
+363,Dugandii,NY,ECUADOR,Tertiaries,5,Elliptic,Acute,Acute,N,121,295,2.44,46,0.16,4,1.6,Amber,F,47,6,9,88,3,1.5,Straw,2,Amber
+362,Dugandii,NY,ECUADOR,,,Lanceolate,Hastate,,,144,381,2.65,51,0.13,,,,F,44,4,9,124,3,1,Straw,1.6,Straw
+366,Dugandii,NY,ECUDAOR,Tertiaries,14,Elliptic,Acute,Acute,N,125,300,2.4,,,3,1,Amber,F,13,4,8,187,2,0.8,Amber,1.6,Amber
+95,Dugandii,US,ECUADOR,Tertiaries,9,Lanceolate,Truncate,Acute,N,129,335,2.6,,,6,0.9,Straw,M,8,3.5,1.7,137,1,1,Straw,0,Absent
+133,Dugandii,US,ECUADOR,Secondaries,11,Lanceolate,Truncate,Acuminate,N,115,343,2.98,,,6,1.2,Amber,M,35,2.5,2.9,171,2,1.3,Amber,1.2,Amber
+130,Dugandii,US,ECUADOR,Secondaries,12,Lanceolate,Truncate,Acuminate,N,62,184,2.97,42,0.23,6,1.4,Amber,M,22,2.5,2.4,181,3,1.3,Amber,2.2,Amber
+121,Dugandii,US,ECUADOR,Tertiaries,16.5,Lanceolate,Truncate,,,136.5,,,,,6,1.3,Amber,F,44,2.5,9.5,216,4,0.9,Amber,1.3,Amber
+128,Dugandii,US,ECUADOR,,9,Lanceolate,Truncate,Acuminate,N,105,266,2.53,51,0.19,,,,M,24,2,2.5,189,4,0.8,Amber,1.6,Amber
+129,Dugandii,US,ECUADOR,Secondaries,18,Elliptic,Truncate,,,146.5,,,,,6,1.5,Amber,M,23,3,2,112,5,0.7,Amber,1.4,Amber
+469,Dugandii,NY,ECUADOR,Tertiaries,15,Elliptic,Truncate,Acute,N,103,265,2.57,54,0.2,6,0.6,Straw,M,59,4.5,3,165,5,0.9,Straw,1,Straw
+367,Dugandii,NY,ECUADOR,,12,Lanceolate,Truncate,Acute,N,92.5,277,2.99,48,0.17,,,,F,17,4,11,107,5,1,Amber,1.6,Amber
+370,Dugandii,NY,ECUADOR,Tertiaries,15,Elliptic,Truncate,,,112,268,2.39,41,0.15,6,1.4,Amber,M,35,2.5,2.1,146,6,0.6,Straw,1.4,Amber
+365,Dugandii,NY,ECUADOR,Tertiaries,11,Elliptic,Truncate,Acute,N,73.5,148,2.01,31,0.21,6,,Straw,F,25,4,9,130,8,0.9,Straw,0.5,Straw
+473,Dugandii,NY,ECUADOR,Secondaries,13,Lanceolate,Truncate,Acuminate,N,110,314,2.85,49,0.16,6,0.9,Amber,M,23,2,2.2,205,8,1,Amber,1.5,Amber
+361,Dugandii,NY,ECUADOR,,20,Lanceolate,Hastate,Acuminate,N,111,308,2.77,62,0.2,,,,F,8,1.5,2.5,64,8,0.7,Amber,0.9,Amber
+368,Dugandii,NY,ECUADOR,Tertiaries,10,Lanceolate,Truncate,Acute,N,107,281,2.63,48,0.17,6,0.7,Amber,M,5,5,2.5,118,10,0.9,Straw,1.6,Amber
+470,Dugandii,NY,ECUADOR,Secondaries,13,Lanceolate,Truncate,Acute,N,151,415,2.74,,,6,1.2,Amber,M,19,2,3,155,10,1.6,Amber,1.9,Amber
+123,Dugandii,US,ECUADOR,Tertiaries,21,Elliptic,Truncate,Acute,N,227,495,2.18,,,6,1,Straw,F,52,4.5,8.7,203,2,1.9,Amber,1.7,Amber
+291,Dugandii,MO (WFU dup.?),PERU,Tertiaries,15,Elliptic,Acute,Acuminate,N,78,178,2.28,36,0.2,5,1.8,Amber,M,,,2.5,83,5,0.6,Amber,1.7,Amber
+292,Dugandii,MO (WFU dup.?),PERU,Tertiaries,14,Lanceolate,Acute,Acuminate,N,70,178,2.54,35,0.2,5,2.2,Amber,F,15,2,7.2,104,10,0.6,Amber,0.6,Amber
+472,Dugandii,NY,PERU,Secondaries,11,Lanceolate,Acute,Acuminate,N,56,185,3.3,40,0.22,5,0.6,Amber,F,,,6.5,,,0.7,Brown,,
+131,Dugandii,US,ECUADOR,Secondaries,8,Lanceolate,Truncate,Acuminate,N,72.5,224,3.09,51,0.23,6,1.3,Amber,M,19,3,2.9,311,2,1.3,Amber,2.1,Amber
+364,Dugandii,NY,ECUADOR,,,Lanceolate,Acute,Acute,N,,,,,,,,,F,32,4,9.5,126,2,0.7,Amber,1,Amber
+471,Dugandii,NY,ECUADOR,Tertiaries,8,Lanceolate,Truncate,Acuminate,N,82,265,3.23,50,0.19,6,,,M,29,2.5,2.7,257,5,2.2,Straw,2,Amber
+132,Dugandii,US,ECUADOR,Secondaries,11,Lanceolate,Acute,Acuminate,N,,,,,,,,,M,32,2,3.8,198,5,1.3,Amber,1.5,Amber
+122,Dugandii,US,ECUADOR,Secondaries,16,Lanceolate,Truncate,Acuminate,Y,130,359,2.76,56,0.16,6,0.9,Straw,F,,,8.5,84,,2.2,Straw,,
+124,Dugandii,US,COLOMBIA,Tertiaries,19,Lanceolate,Truncate,Acuminate,N,182,473,2.6,,,6,0.9,Amber,F,49,4.5,10,136,5,1,Straw,1.3,Amber
+308,Dugandii,WFU,PERU,Tertiaries,12,Elliptic,Acute,Acute,N,79,206,2.61,53,0.26,2,0.5,Straw,F,34,5,7.5,161,5,1.5,Straw,1,Straw
+309,Dugandii,WFU,PERU,Tertiaries,11,Elliptic,Truncate,Acute,N,130,281,2.16,63,0.22,6,0.4,Straw,F,37,5,6.5,166,7,0.5,Straw,0.7,Amber
+331,Dugandii,WFU,PERU,Tertiaries,9,Oblanceolate,Attenuate,Acute,N,77,208,2.7,48,0.23,2,1.5,Amber,F,30,3,3,181,8,2,Straw,1,Amber
+301,Dugandii,WFU,PERU,Tertiaries,20,Elliptic,Truncate,Acute,N,159,405,2.55,,,5,0.6,Amber,M,39,4.5,3,119,9,1,Amber,0.5,Amber
+96,Dugandii,US,ECUADOR,Secondaries,12,Elliptic,Truncate,Acute,N,164,,,,,,,,M,46,3.5,2.9,103,8,0.9,Amber,1.5,Amber
+98,Efistulifera,US,BOLIVIA,Secondaries,11,Lanceolate,Acute,Acute,N,58,199,3.43,39,0.2,2,1.8,Straw,F,30,2,7,79,1,0.4,Amber,0,Absent
+97,Efistulifera,US,BOLIVIA,Secondaries,11,Lanceolate,Acute,Acuminate,N,71.5,208,2.91,,,2,1.3,Amber,F,8,1.5,4.6,52,1,0.2,Brown,0,Absent
+476,Gardneriana,NY,PERU,Secondaries,13,Elliptic,Truncate,Acuminate,Y,88.5,198,2.24,34,0.17,0,0,Absent,F,18,3,8.5,61,1,1.1,Straw,0,Absent
+456,Gardneriana,NY,PERU,Secondaries,20,Elliptic,Attenuate,Acute,N,67,187,2.79,39,0.21,2,0.6,Straw,F,31,1.5,7.5,163,1,0.6,Straw,0,Absent
+285,Gardneriana,MO (WFU dup.?),PERU,Secondaries,22,Elliptic,Acute,Acuminate,N,64,156,2.44,34,0.22,5,1.5,Straw,F,34,2,9.4,113,1,0.9,White,0,Absent
+101,Gardneriana,US,BRAZIL,Secondaries,9,Elliptic,Acute,Acute,N,53.5,122.5,2.29,29,0.24,4,2.1,White,M,23.5,1.5,3.4,132,2,0.7,Straw,0.5,White
+263,Gardneriana,SPF (WFU dup.?),BRAZIL,Tertiaries,12,Elliptic,Truncate,Acute,N,69.5,108,1.55,25,0.23,6,1,Straw,F,24,2,7,98,8,0.4,Straw,0.6,Amber
+117,Gardneriana,US,PARAGUAY,Secondaries,17,Elliptic,Truncate,Apiculate,N,90,149,1.66,29,0.19,2,1,White,F,20,3,5,64,1,0.8,Straw,0,Absent
+288,Gardneriana,MO (WFU dup.?),PERU,Secondaries,12,Elliptic,Acute,Acuminate,N,85,149,1.75,27,0.18,5,0.8,Straw,M,34,2.5,4.7,173,1,1.7,Straw,0,Absent
+118,Gardneriana,US,PERU,Secondaries,,Elliptic,Acute,,,49.5,97,1.96,28,0.29,0,0,Absent,M,13,3,5.4,124,2,0.8,Straw,1,White
+119,Gardneriana,US,PERU,Secondaries,11,Elliptic,Truncate,Apiculate,N,83,175,2.11,42,0.24,0,0,Absent,F,8,2.5,8.5,98,2,1.2,Amber,1.5,White
+287,Gardneriana,MO (WFU dup.?),PERU,Secondaries,16,Elliptic,Acute,Apiculate,N,101,227,2.25,43,0.19,2,0.2,Amber,F,22,3,7.3,88,2,0.7,Amber,0.8,Amber
+457,Gardneriana,NY,PERU,Secondaries,12,Elliptic,Acute,Acute,N,60,118,1.97,28,0.24,0,0,Absent,M,16,1.5,3.5,73,3,1,Amber,1.5,Straw
+286,Gardneriana,MO (WFU dup.?),PERU,Secondaries,12,Elliptic,Acute,Acuminate,Y,65,157,2.42,30,0.19,2,0.1,Straw,M,13,1,3.5,64,3,0.6,Amber,0.7,Straw
+120,Gardneriana,US,PERU,,,,,,,,,,,,,,,F,22,3,9,79,3,1.7,Straw,1.1,Straw
+110,Gardneriana,US,BRAZIL,Secondaries,2,Elliptic,Acute,Acute,N,36.5,73,2,28,0.38,2,2.1,White,F,12.5,2.5,5.5,70,1,0.7,Straw,0,Absent
+113,Gardneriana,US,BRAZIL,Secondaries,7,Lanceolate,Acute,Acuminate,N,48,118,2.46,,,2,0.7,White,M,8,1.5,4,107,1,0.5,Straw,0,Absent
+109,Gardneriana,US,BRAZIL,Secondaries,8,Elliptic,Acute,Acuminate,N,62,127,2.05,30,0.24,2,1.4,White,F,,,6.3,43,4,0.4,Amber,0.7,White
+116,Gardneriana,US,PARAGUAY,Secondaries,13,Elliptic,Acute,Apiculate,N,84,154,1.83,,,0,0,Absent,M,28.5,3,6.3,81,2,1.1,Straw,1.1,Straw
+478,Gardneriana,NY,PARAGUAY,Secondaries,11,Elliptic,Truncate,Acute,N,51,96,1.88,21,0.22,0,0,Absent,M,7,1,5,125,2,0.5,Amber,1,Straw
+104,Gardneriana,US,BRAZIL,Secondaries,16,Lanceolate,Acute,Acute,N,52,149,2.87,34,0.23,2,1.9,Straw,M,23,2,4.2,122,1,0.7,Straw,0,Absent
+316,Gardneriana,RB (WFU dup.?),BRAZIL,Secondaries,17,Elliptic,Acute,Acute,N,55,129,2.35,35,0.27,2,1.2,Amber,F,30,1.5,6.6,120,1,0.7,Straw,0,Absent
+114,Gardneriana,US,BRAZIL,Tertiaries,12,Elliptic,Truncate,Acuminate,Y,130.5,246,1.89,37,0.15,4,2.4,White,M,23,2.5,3,115,1,0.6,Amber,0,Absent
+103,Gardneriana,US,BRAZIL,Secondaries,16,Elliptic,Acute,Acuminate,Y,69,159,0.94,,,2,1.9,White,F,,,4.6,41,2,0.3,Straw,0.9,Amber
+115,Gardneriana,US,BRAZIL,,,,,,,,,,,,,,,F,13,2,8.3,168,2,0.4,Straw,1.1,Straw
+108,Gardneriana,US,BRAZIL,Secondaries,14.5,Elliptic,Acute,Acute,N,63,148,2.35,30,0.2,0,0,Absent,M,10,1.5,3.5,104,2,0.6,Straw,1,Straw
+106,Gardneriana,US,BRAZIL,Tertiaries,17,Elliptic,Truncate,Acute,N,91.5,206,2.25,32,0.16,4,1.2,White,F,19,2,8.5,136,2,0.7,Amber,0.5,Amber
+315,Gardneriana,RB (WFU dup.?),BRAZIL,Secondaries,10,Elliptic,Truncate,Acute,N,70,173,2.47,27,0.17,6,1.1,Straw,F,,,5.5,48,1,0.4,Straw,0,Absent
+105,Gardneriana,US,BRAZIL,Secondaries,12,Elliptic,Acute,Acute,N,65,151,2.32,25,0.17,6,1.4,Straw,F,9,3,4.6,106,2,0.8,Straw,1.7,Straw
+100,Gardneriana,US,BRAZIL,Secondaries,19,Lanceolate,Acute,Acute,N,49,132,2.69,22,0.17,0,0,Absent,M,11,1,4.3,99,1,0.8,Straw,0,Absent
+99,Gardneriana,US,BRAZIL,Secondaries,18,Lanceolate,Acute,Acute,N,43,119.5,2.77,21,0.18,2,0.9,White,M,12,1,5,67,3,0.9,Straw,1,White
+264,Gardneriana,SPF (WFU dup.?),BRAZIL ,Secondaries,16,Elliptic,Truncate,Acute,N,111,219,1.97,49,0.22,2,1.4,Amber,F,15,4,4.5,245,4,1.1,Straw,1.1,Straw
+107,Gardneriana,US,BRAZIL,Secondaries,10,Elliptic,Acute,Acuminate,N,72,170,2.36,34,0.2,2,2.2,Amber,M,,,6.2,144,1,0.9,Straw,0,Absent
+262,Gardneriana,SPF (WFU dup.?),BRAZIL,Tertiaries,11,Elliptic,Acute,Acute,N,66,132,2,28,0.21,2,2,White,M,,,5.5,,1,1.1,Straw,0,Absent
+102,Gardneriana,US,BRAZIL,Secondaries,14,Elliptic,Acute,Acute,N,61,134,2.2,,,2,1.4,White,M,,,3.8,109,2,0.4,Straw,1.1,White
+112,Gardneriana,US,BRAZIL,Secondaries,8,Elliptic,Acute,Acute,N,48,117,2.44,22,0.19,4,1.2,White,M,20,2,4,143,1,1.5,Straw,0,Absent
+111,Gardneriana,US,BRAZIL,Secondaries,11,Elliptic,Acute,Acute,N,61.5,145,2.36,30,0.21,,,,F,12,3,6.7,99,1,0.8,Amber,0,Absent
+279,Gardneriana,MO (WFU dup.?),BOLIVIA,Secondaries,17,Elliptic,Acute,Acute,N,60,123,2.05,29,0.24,0,0,Absent,F,28,2,5.5,104,1,0.3,Straw,0,Absent
+477,Gardneriana,NY,BOLIVIA,Secondaries,12,Lanceolate,Acute,Acute,N,52,131,2.52,29,0.22,0,0,Absent,F,14,1,7,91,1,0.4,Straw,0,Absent
+475,Gardneriana,NY,BOLIVIA,Secondaries,7,Elliptic,Truncate,Acute,N,34,137,4.03,21,0.15,3,1.4,Straw,M,14,1,4.5,89,1,0.3,Straw,0,Absent
+299,Longifolia,WFU,PERU,Secondaries,41,Elliptic,Acute,Acuminate,Y,146,287,1.97,37,0.13,0,0,Absent,F,32,8,14,143,1,1.5,Amber,0,Absent
+318,Longifolia,WFU,PERU,Secondaries,47,Elliptic,Acute,Acuminate,,163,268,1.64,42,0.16,0,0,Absent,F,34,9,17,134,1,0.8,Straw,0,Absent
+358,Longifolia,NY,PERU,Secondaries,47,Elliptic,Acute,Acuminate,Y,199,410,2.06,,,0,0,Absent,F,,,3.5,,,1.7,Straw,,
+157,Melaenodendron,US,COLOMBIA,Secondaries,16,Elliptic,,Apiculate,N,99.5,,,,,0,0,Absent,F,20,4,,183,1,1.4,Straw,0.7,Amber
+156,Melaenodendron,US,COLOMBIA,Secondaries,15,Elliptic,Acute,Acuminate,N,71,161.5,2.27,36,0.22,,,,F,46,4.5,,196,1,1.1,Amber,0,Absent
+158,Melaenodendron,US,COLOMBIA,Secondaries,6,Elliptic,Acute,Acute,N,98.5,,,,,,,,F,22,4.5,,147,1,0.6,,0,Absent
+155,Melaenodendron,US,COLOMBIA,Secondaries,8,Elliptic,Truncate,Blunt,N,119,179,1.5,35,0.2,2,0.9,Amber,F,35,5,6.4,130,3,1.1,Amber,0.6,Amber
+151,Melaenodendron,US,COLOMBIA,Tertiaries,10,Elliptic,Truncate,,,114.5,220,1.92,48,0.22,6,1.4,Amber,F,17.5,2,6.7,92,1,0.8,Amber,0,Absent
+143,Melaenodendron,US,COLOMBIA,Tertiaries,7,Elliptic,Acute,Acuminate,N,111,254,2.29,41,0.16,0,0,Absent,F,9,3,5.5,106,1,0.7,Amber,0,Absent
+145,Melaenodendron,US,COLOMBIA,Tertiaries,12.5,Elliptic,Acute,Acuminate,N,113,246,2.18,39,0.16,0,0,Absent,F,20,5.5,,110,1,1.4,Straw,0,Absent
+152,Melaenodendron,US,COLOMBIA,Tertiaries,16,Lanceolate,Acute,Acute,N,99,345,3.48,,,0,0,Absent,F,,,4.5,181,1,0.6,Amber,0,Absent
+359,Melaenodendron,NY,COLOMBIA,Secondaries,4,Elliptic,Acute,Acute,N,80,185,2.3125,39,0.21,0,0,Absent,F,15,3.5,4.6,141,3,0.7,Straw,0.9,Straw
+144,Melaenodendron,US,COLOMBIA,Tertiaries,13,Obelliptic,Truncate,Acuminate,N,138,318,2.3,46,0.14,0,0,Absent,F,,,7.5,193,1,1.1,Amber,0,Absent
+146,Melaenodendron,US,COLOMBIA,Secondaries,14,Lanceolate,Acute,Acuminate,N,68,212,3.12,44,0.21,0,0,Absent,M,21,2.5,3.3,46,1,0.8,Amber,0,Absent
+147,Melaenodendron,US,COLOMBIA,Tertiaries,12,Elliptic,Acute,Apiculate,N,97,241,2.48,,,0,0,Absent,F,24.5,3,10,134,1,0.9,Straw,0,Absent
+154,Melaenodendron,US,COLOMBIA,Secondaries,15,Elliptic,Acute,Acuminate,N,134,274,2.04,44,0.16,3,1.7,Amber,F,29,3,,137,3,0.8,Straw,1.8,Straw
+148,Melaenodendron,US,COLOMBIA,Tertiaries,8,Elliptic,Acute,Blunt,N,171,279,1.63,40,0.14,3,1.8,Amber,F,27,2.5,6,134,1,0.6,Amber,0,Absent
+150,Melaenodendron,US,COLOMBIA,Tertiaries,6,Elliptic,Acute,Acuminate,N,87.5,163,1.86,28,0.17,4,2.5,Amber,F,36,3.5,5,81,1,0.3,Brown,0,Absent
+149,Melaenodendron,US,COLOMBIA,Tertiaries,11,Elliptic,Acute,Acuminate,N,122,240,1.97,,,3,2,Amber,M,33,3.5,2.8,178,3,0.3,Amber,0.6,Amber
+169,Melaenodendron,US,COSTA RICA,,18,Elliptic,Acute,Acute,N,116.5,228,1.96,,,4,,Amber,M,33,3,3.8,136,1,1,Straw,0,Absent
+163,Melaenodendron,US,EL SALVADOR,Tertiaries,14,Elliptic,Truncate,Acute,N,104.5,180,1.72,29,0.16,2,1.5,Amber,M,34.5,4.5,5.5,107,2,0.9,Straw,0.9,Straw
+168,Melaenodendron,US,EL SALVADOR,Tertiaries,15,Elliptic,Truncate,Apiculate,N,142,219,1.54,,,2,1.2,Amber,F,34,4.5,8.5,119,1,0.2,Straw,0,Absent
+425,Melaenodendron,NY,COSTA RICA,Tertiaries,10,Lanceolate,Truncate,Acute,N,100,267,2.67,48,0.18,,,,M,30,2,4,87,7,0.2,Straw,1.9,Amber
+161,Melaenodendron,US,MEXICO,Secondaries,12,Elliptic,Truncate,Acute,N,140.5,244,1.74,36,0.15,4,1.7,Amber,M,40.5,3.5,9,129,2,1.2,Amber,0.9,Amber
+423,Melaenodendron,NY,MEXICO,Secondaries,20,Elliptic,Truncate,Acuminate,Y,137,288,2.1,33,0.11,,,,M,31,2,3.7,143,2,1.1,Straw,1.5,Amber
+422,Melaenodendron,NY,MEXICO,Tertiaries,13,Elliptic,Truncate,Acuminate,Y,113,209,1.85,28,0.13,2,0.6,Straw,M,17,1,3.5,109,3,0.7,Straw,1.1,Amber
+499,Melaenodendron,NY,MEXICO,Tertiaries,16,Elliptic,Truncate,Acute,N,95,176,1.85,30,0.17,5,0.8,Amber,F,17,2,5.5,124,6,0.6,Amber,0.9,Amber
+455,Melaenodendron,NY,GUATEMALA,Secondaries,7,Elliptic,Acute,Acute,N,89,172,1.93,32,0.19,5,1.6,Straw,F,13,3,8.5,201,2,0.9,Brown,0.7,Brown
+454,Melaenodendron,NY,EL SALVADOR,Secondaries,10,Elliptic,Acute,Acute,N,88,169,1.92,33,0.2,2,15,Straw,M,18,3,3,161,2,0.7,Amber,0.5,Amber
+162,Melaenodendron,US,GUATEMALA,,21,Elliptic,Acute,Acute,N,152,276,1.82,34,0.12,,,,F,,,7,193,,0.9,Straw,,
+421,Melaenodendron,NY,GUATEMALA,Secondaries,19,Elliptic,Truncate,Acute,N,90.5,189.5,2.09,,,2,2,Straw,F,22,2,8.5,78,2,0.7,Straw,0.8,Straw
+506,Melaenodendron,NY,GUATEMALA,Tertiaries,13,Elliptic,Truncate,Apiculate,N,127,219,1.72,37,0.17,,,,F,,,3.5,,,0.9,Amber,,
+175,Melaenodendron,US,NICARAGUA,Tertiaries,11,Lanceolate,Acute,Acute,N,89.5,242,2.7,,,2,1.3,Amber,M,35,2,3,52,2,1.1,Amber,0.8,Straw
+172,Melaenodendron,US,COSTA RICA,Tertiaries,9,Elliptic,Acute,Acuminate,Y,108,242.5,2.25,38,0.16,4,1.4,Straw,M,,,3.7,183,1,1.2,Straw,0,Absent
+504,Melaenodendron,NY,COSTA RICA,Secondaries,15,Elliptic,Truncate,Acuminate,N,119,248,2.08,44,0.18,6,1.6,Straw,F,,,7.5,,,1,Straw,,
+171,Melaenodendron,US,COSTA RICA,,20,Elliptic,Truncate,Acute,,159.5,305.5,1.92,44,0.14,,,,M,,,3.9,134,,0.5,Straw,,
+503,Melaenodendron,NY,COSTA RICA,Tertiaries,10,Elliptic,Truncate,Acute,N,86,151,1.76,,,6,1.6,Straw,F,16,1.5,5.5,107,10,0.7,Amber,0.9,Straw
+507,Melaenodendron,NY,EL SALVADOR,Secondaries,25,Elliptic,Truncate,Apiculate,N,,281,,,,2,2.8,Amber,F,38,2,7.5,223,1,1.5,Straw,0,Absent
+167,Melaenodendron,US,EL SALVADOR,Tertiaries,17,Elliptic,Acute,Apiculate,Y,156.5,301,1.92,36,0.12,,,,F,45,4,6.8,220,1,1.1,Straw,0,Absent
+159,Melaenodendron,US,MEXICO,,15,Elliptic,Truncate,Apiculate,N,161,236,1.47,38,0.16,,,,F,28,2,9,176,2,1.5,Straw,1.3,Straw
+176,Melaenodendron,US,COSTA RICA,Secondaries,5,Elliptic,Acute,Acuminate,N,109,261,2.39,,,6,1,Straw,F,36,4,2.2,84,2,0.7,Amber,1.6,Straw
+170,Melaenodendron,US,COSTA RICA,Tertiaries,11,Elliptic,Truncate,Acute,N,155,295,1.9,42,0.14,4,,Straw,M,35,2.5,4,139,3,1,Straw,1.5,Amber
+174,Melaenodendron,US,COSTA RICA,Tertiaries,19.5,Elliptic,Truncate,Apiculate,N,119.5,261,2.18,39,0.15,6,0.9,Amber,F,24,4,7.7,124,3,0.3,Straw,1.1,Amber
+173,Melaenodendron,US,COSTA RICA,Tertiaries,14,Elliptic,Acute,Acuminate,N,81,183.5,2.27,35,0.19,2,1.2,Amber,M,35,4,2.5,188,4,0.3,Straw,1.5,Straw
+505,Melaenodendron,NY,COSTA RICA,Secondaries,24,Lanceolate,Attenuate,Acuminate,N,92,253,2.75,42,0.17,4,1.7,Amber,F,36,3,13.5,195,4,0.5,Amber,1.6,Amber
+508,Melaenodendron,NY,COSTA RICA,Tertiaries,23,Elliptic,Truncate,Apiculate,N,122,266,2.18,,,6,2.5,Straw,F,40,3.5,10.5,196,5,0.6,Straw,1.3,Straw
+501,Melaenodendron,NY,GUATEMALA,Secondaries,14,Elliptic,Acute,Apiculate,N,87,173,1.99,,,2,1.6,Amber,M,32,5,2.5,174,8,0.9,Amber,1.1,Amber
+424,Melaenodendron,NY,NICARAGUA,Tertiaries,20,Elliptic,Truncate,Acuminate,N,129,280,2.17,,,4,1.4,Amber,M,16,2.5,3,51,2,0.8,Amber,0.7,Amber
+426,Melaenodendron,NY,COSTA RICA,Tertiaries,8,Lanceolate,Truncate,Acuminate,N,106,250,2.36,,,4,1.8,Amber,F,30,3,6.5,123,6,0.3,Amber,0.7,Amber
+419,Melaenodendron,NY,EL SALVADOR,Tertiaries,11,Elliptic,Truncate,Acute,N,109,215,1.97,,,2,1.9,Amber,F,38,3,7,206,1,1.2,Straw,0,Absent
+447,Melaenodendron,NY,EL SALVADOR,Secondaries,10,Elliptic,Truncate,Acute,N,127,229,1.8,34,0.15,2,1.5,Straw,M,18,2,3.5,72,1,0.4,Straw,0,Absent
+500,Melaenodendron,NY,EL SALVADOR,Tertiaries,,Elliptic,Acute,Acute,N,115,231,2.01,34,0.15,5,1.4,Straw,M,23,2,3,129,2,0.5,Straw,1.3,Straw
+165,Melaenodendron,US,EL SALVADOR,Secondaries,21,Lanceolate,Acute,Acute,N,106,263,2.48,40,0.15,2,2.5,Amber,M,21,2.5,4.5,94,1,0.6,Straw,0,Absent
+164,Melaenodendron,US,EL SALVADOR,Tertiaries,19,Elliptic,Truncate,Acute,N,193,306,1.59,35,0.11,2,2.1,Amber,M,13,3,4.1,72,1,0.8,Straw,0,Absent
+420,Melaenodendron,NY,EL SALVADOR,Tertiaries,14,Ovate,Truncate,Acute,N,107,184,1.72,33,0.18,4,1.7,Straw,F,,,7,115,1,1,Straw,0,Absent
+166,Melaenodendron,US,EL SALVADOR,Tertiaries,9,Elliptic,Truncate,Apiculate,N,97.5,132.5,1.36,23,0.17,6,2.3,Straw,M,31,2,5.7,123,1,0.5,Brown,0,Absent
+502,Melaenodendron,NY,GUATEMALA,Secondaries,,Elliptic,Acute,Acuminate,N,60,128.5,2.14,30,0.23,6,1.5,Amber,M,,,3.5,100,2,0.8,Amber,0.9,Amber
+160,Melaenodendron,US,GUATEMALA,Secondaries,8,Elliptic,Acute,Acuminate,Y,99.5,206,2.07,33,0.16,6,0.9,Straw,M,30,3,3.4,157,2,1.5,Straw,1.2,Straw
+427,Melaenodendron,NY,EL SALVADOR,Tertiaries,12,Elliptic,Truncate,Apiculate,Y,152,299,1.97,33,0.11,5,,,F,,,,,,,,,
+376,Pavonii,NY,PERU,,,Elliptic,Attenuate,Apiculate,N,106,282,2.66,62,0.22,,,,F,19,2.5,6.5,198,4,2.6,Amber,2.1,Amber
+372,Pavonii,NY,PERU,Secondaries,9,Elliptic,Truncate,Acute,N,140,257,1.84,32,0.12,0,0,Absent,M,17,2,2.5,94,2,0.5,Amber,0.6,Amber
+351,Peruviana,NY,PERU,Secondaries,12,Elliptic,Truncate,Acuminate,N,101,122,1.21,35,0.29,0,0,Absent,F,35,2,3,95,1,0.3,Amber,0,Absent
+353,Peruviana,NY,PERU,Tertiaries,8,Elliptic,Truncate,Acuminate,Y,87,233,2.68,31,0.13,0,0,Absent,F,,,1.1,29,1,0.1,Amber,0,Absent
+354,Peruviana,NY,PERU,Secondaries,8,Lanceolate,Attenuate,Acuminate,Y,67,211,3.15,48,0.23,0,0,Absent,M,11,1,3.5,85,1,0.2,Straw,0,Absent
+321,Peruviana,WFU,PERU,Secondaries,11,Elliptic,Acute,Acuminate,N,58,146,2.52,26,0.18,0,0,Absent,F,15,2.5,9.5,95,1,0.7,Straw,0,Absent
+322,Peruviana,WFU,PERU,Secondaries,17,Elliptic,Attenuate,Acuminate,N,39,96.5,2.47,19,0.2,0,0,Absent,F,9,2,5.7,48,1,0.7,Straw,0,Absent
+323,Peruviana,WFU,PERU,Secondaries,23,Elliptic,Acute,Acute,N,69,171,2.48,27,0.16,0,0,Absent,F,16,4,7.5,97,1,0.4,Straw,0,Absent
+324,Peruviana,WFU,PERU,Secondaries,12,Elliptic,Truncate,Acuminate,Y,84,162,1.93,29,0.2,0,0,Absent,F,9,2,6.5,99,1,0.6,Straw,0,Absent
+325,Peruviana,WFU,PERU,Secondaries,18,Elliptic,Acute,Acuminate,Y,131,289,2.21,37,0.13,0,0,Absent,M,14,2,3,82,1,0.5,Straw,0,Absent
+326,Peruviana,WFU,PERU,Secondaries,14,Elliptic,Acute,Apiculate,N,168,140,0.83,32,0.23,0,0,Absent,F,3,2.5,5,93,1,0.6,Straw,0,Absent
+327,Peruviana,WFU,PERU,Secondaries,16,Elliptic,Truncate,,,78,190,2.44,32,0.17,0,0,Absent,F,9,2,5,81,1,0.7,Amber,0,Absent
+328,Peruviana,WFU,PERU,Secondaries,13,Lanceolate,Acute,Acuminate,,84,210,2.5,29,0.14,0,0,Absent,M,16,2,3.1,90,1,0.5,Straw,0,Absent
+352,Peruviana,NY,PERU,Tertiaries,8,Elliptic,Truncate,Acuminate,Y,129,,,,,0,0,Absent,F,7,2,5.5,78,1,0.5,Amber,0,Absent
+355,Peruviana,NY,PERU,Secondaries,16,Lanceolate,Acute,Acute,N,68,207,3.04,,,0,0,Absent,F,5,2.5,5.5,64,1,0.2,Amber,0,Absent
+329,Peruviana,WFU,PERU,Secondaries,20,Elliptic,Truncate,Acute,,90,178,1.98,31,0.17,2,1.1,Amber,M,11,1.5,3.5,138,1,0.6,Straw,0,Absent
+135,Peruviana,US,PERU,Secondaries,16,Lanceolate,Acute,Acuminate,Y,90.5,271,2.99,38,0.14,0,0,Absent,M,14.5,2,2.7,50,1,0.1,Straw,0,Absent
+138,Peruviana,US,PERU,Secondaries,11,Elliptic,Acute,Acute,,44,104,2.36,,,0,0,Absent,F,4.5,3,6,145,1,0.4,Amber,0,Absent
+136,Peruviana,US,PERU,,7,Elliptic,Truncate,Acuminate,Y,82,194.5,2.37,35,0.18,,,,F,15,2.5,7,128,2,0.6,Amber,0.4,Straw
+137,Peruviana,US,PERU,,7,Elliptic,Truncate,Acute,N,91,224,2.46,39,0.17,,,,M,17,2.5,3.2,113,2,0.2,Amber,0.5,Amber
+356,Peruviana,NY,PERU,,7,Lanceolate,Truncate,Acute,N,71,205,2.89,,,,,,M,18,2.5,2,79,2,0.5,Amber,0.5,Amber
+139,Physocalyx,US,BRAZIL,Tertiaries,11,Lanceolate,Acute,Acuminate,Y,63,218,3.46,42,0.19,2,2.1,White,F,,,8.2,170,1,1.3,Straw,0,Absent
+440,Physocalyx,NY,BRAZIL,Secondaries,10,Lanceolate,Acute,Acuminate,N,59,235,3.98,,,2,1.4,Straw,F,36,4,7.3,141,1,1,Straw,0,Absent
+441,Physocalyx,NY,BOLIVIA,Secondaries,9,Lanceolate,Acute,Acuminate,N,50,128,2.56,30,0.23,2,1.8,Amber,F,27,1.5,5.7,207,1,0.2,Amber,0,Absent
+177,Poeppigiana,US,PERU,Secondaries,8,Lanceolate,Attenuate,Acuminate,Y,44,161,3.66,48,0.3,2,3.3,Amber,F,19,3.5,4.5,133,2,0.8,Amber,1.7,Amber
+178,Poeppigiana,US,PERU,Secondaries,8,Lanceolate,Truncate,Acuminate,Y,73,266,3.64,,,0,0,Absent,M,38,1.5,3.5,288,3,0.3,Amber,4,Amber
+181,Poeppigiana,US,PERU,Secondaries,10,Lanceolate,Truncate,Acuminate,Y,85,264,4.55,53,0.2,2,3.8,Amber,F,19,2.5,7.6,122,7,0.8,Amber,3.1,Amber
+183,Poeppigiana,US,PERU,Tertiaries,14,Lanceolate,Truncate,Acuminate,Y,96,332,3.46,,0.19,2,2.3,Amber,F,19,3.5,8.2,59,8,0.4,Straw,2.4,Amber
+186,Poeppigiana,US,PERU,Tertiaries,10.5,Oblanceolate,Truncate,Acuminate,Y,96.5,287.5,2.98,53,0.18,2,3.4,Amber,F,40.5,3,10,208,3,1,Straw,2,Amber
+185,Poeppigiana,US,PERU,Secondaries,10,Lanceolate,Truncate,Acuminate,Y,78,242,3.1,54,0.22,2,2.4,Amber,M,44,4,5,177,4,0.8,Straw,2.4,Amber
+184,Poeppigiana,US,PERU,Tertiaries,,Oblanceolate,,Acuminate,Y,117.5,316,2.69,,,2,2.3,Amber,M,51,3,3.9,191,3,0.8,Straw,2.4,Amber
+179,Poeppigiana,US,PERU,Secondaries,9,Lanceolate,Acute,Acuminate,Y,77,271,3.52,54,0.2,2,3.5,Amber,M,25,3,3.5,150,4,0.3,Straw,4.7,Amber
+283,Poeppigiana,MO (WFU dup.?),PERU,Secondaries,13,Lanceolate,Acute,Acuminate,Y,89.5,276,3.08,60,0.22,2,3.2,Amber,F,16,3,6.7,59,6,1.7,Straw,4.7,Amber
+282,Poeppigiana,MO (WFU dup.?),PERU,Secondaries,12,Lanceolate,Acute,Acuminate,Y,79,261,3.3,,,2,5,Amber,F,10,3,10,123,8,1.2,Straw,2.8,Amber
+180,Poeppigiana,US,PERU,Secondaries,4,Oblanceolate,Acute,Acuminate,Y,120,344,2.87,56,0.16,2,3.6,Amber,F,,,9,,,0.6,Brown,,
+284,Poeppigiana,MO (WFU dup.?),PERU,Secondaries,12,Lanceolate,Acute,Acuminate,Y,74,213,2.89,56,0.26,2,3.3,Amber,F,12,4,9.5,155,8,0.9,Straw,2.9,Amber
+187,Poeppigiana,US,PERU,Secondaries,19,Oblanceolate,Truncate,Acuminate,,97,285,2.94,46,0.16,2,4.1,Amber,F,53,5,8.7,151,1,1.4,Straw,0,Absent
+182,Poeppigiana,US,PERU,Tertiaries,12,Lanceolate,Acute,Acuminate,Y,81,284,3.51,,,2,2.3,Amber,M,27,4,3,195,4,0.8,Straw,3.2,Amber
+320,Poeppigiana,WFU,PERU,Secondaries,7,Elliptic,Hastate,Apiculate,N,72,153,2.125,35,0.23,2,3.5,Brown,F,21,3.5,10,73,7,3.4,Amber,5.6,Brown
+189,Poeppigiana,US,BOLIVIA,Secondaries,7,Lanceolate,Acute,Acuminate,Y,65,213,3.28,,,2,4.7,Amber,M,45,4,3.3,141,4,1,Straw,4.1,Amber
+188,Poeppigiana,US,BOLIVIA,Secondaries,4,Lanceolate,Truncate,Acuminate,Y,87.5,316,3.61,,,2,4.1,Amber,F,13,2,10.3,118,5,1.3,Straw,2.3,Amber
+190,Poeppigiana,US,BOLIVIA,Secondaries,6,Lanceolate,Truncate,Acute,N,137.5,361,2.63,,,2,4.9,Straw,F,16,2.5,11,148,5,2.6,Straw,3.6,Amber
+142,Punctata,US,BRAZIL,Secondaries,7,Lanceolate,Attenuate,Acuminate,N,55.5,192,3.46,45,0.23,0,0,Absent,M,,,3,49.5,0,0,Absent,0,Absent
+338,Punctata,NY,PERU,Secondaries,11,Lanceolate,Attenuate,Acuminate,N,57,258,4.53,43,0.17,0,0,Absent,M,14,3.5,2.4,52,4,0.9,Amber,0.9,Amber
+479,Punctata,NY,PERU,,8,Lanceolate,Attenuate,Acute,N,50.5,175.5,3.48,39,0.22,,,,F,10.5,2.5,7,73,1,1,Amber,0,Absent
+141,Punctata,US,PERU,Secondaries,17,Lanceolate,Acute,Acute,N,116,309,2.66,51,0.17,0,0,Absent,F,,,6.4,50,0,0,Absent,0,Absent
+442,Punctata,NY,PERU,Secondaries,23,Elliptic,Attenuate,Acuminate,N,111,335,3.02,,,0,0,Absent,F,56,7,5.7,66,0,0,Absent,0,Absent
+140,Punctata,US,PERU,,14,Lanceolate,Acute,Acuminate,N,131,378,2.89,,,,,,M,37,4,3.3,144,0,0,Absent,0,Absent
+307,Punctata,WFU,PERU,Secondaries,12,Lanceolate,Acute,Acuminate,N,78,223,2.86,42,0.19,2,0.7,Straw,F,40,5,6.5,105,1,1.4,Amber,0,Absent
+357,Punctata,NY,PERU,Secondaries,49,Elliptic,Attenuate,Acute,N,140,283,2.02,,,0,0,Absent,F,8,13,8,112,1,1.2,Straw,1.8,Straw
+409,Purdiei,NY,COLOMBIA,Tertiaries,3.5,Elliptic,Attenuate,Acuminate,N,55,141.5,2.57,30,0.21,5,2.2,Amber,F,27,1.5,2.7,65,6,1.3,Straw,1.1,Amber
+203,Purdiei,US,COLOMBIA,Secondaries,6,Elliptic,Truncate,Acuminate,N,68.5,141.5,2.07,,,3,1.6,Straw,M,36,1.5,3.5,152,3,1.6,Straw,1.1,Amber
+407,Purdiei,NY,COLOMBIA,Tertiaries,4,Elliptic,Acute,Acuminate,N,60,139,2.32,27,0.19,5,0.6,Amber,M,17,2.5,3.9,99,4,0.9,Amber,1.3,Amber
+199,Purdiei,US,COLOMBIA,Secondaries,4,Elliptic,Truncate,Apiculate,N,73,135,1.85,,,6,1.7,Straw,F,46,2,6.4,85,4,1.3,Straw,1.4,Straw
+350,Purdiei,NY,COLOMBIA,Secondaries,15,Elliptic,Truncate,Acuminate,N,137,247,1.8,,,4,0.3,Amber,F,40,3,7,100,5,2.4,Straw,0.6,Amber
+194,Purdiei,US,COLOMBIA,Tertiaries,12,Elliptic,Acute,Apiculate,N,123,280,2.28,33,0.12,6,1.8,Amber,F,41,2,8.5,178,5,1.7,Straw,1.3,Straw
+201,Purdiei,US,COLOMBIA,Secondaries,5,Elliptic,Acute,Acuminate,N,88,194,2.2,29,0.15,3,2,White,M,18,2,3.3,87,6,1.1,Straw,1.3,Straw
+195,Purdiei,US,COLOMBIA,Secondaries,5,Elliptic,Truncate,Acuminate,N,56,94,1.68,22,0.23,6,0.7,Straw,F,31,2.5,5.8,118,6,1.2,Straw,1.3,Straw
+196,Purdiei,US,COLOMBIA,Secondaries,10,Elliptic,Acute,Acuminate,N,83,166,2,,,6,3,White,F,33,3,9.3,181,6,1.5,Straw,1.9,Straw
+448,Purdiei,NY,COLOMBIA,Secondaries,8,Elliptic,Acute,Acute,N,100,169,1.69,27,0.16,5,0.7,Straw,F,34,2.5,5.5,93,7,0.7,Amber,1.2,Amber
+200,Purdiei,US,COLOMBIA,Tertiaries,4,Elliptic,Truncate,Acuminate,N,53.5,146,2.73,33,0.23,6,0.8,Amber,M,15,2,3,106,7,1.6,Amber,1.1,Brown
+408,Purdiei,NY,COLOMBIA,Secondaries,5,Elliptic,Acute,Acuminate,N,64.5,131.5,2.04,35,0.27,2,3,Straw,F,19,1.5,6.1,57,9,1.5,Straw,2.4,Straw
+191,Purdiei,US,COLOMBIA,Secondaries,7,Elliptic,Acute,Apiculate,N,90,181,2.01,32,0.18,4,1.2,Straw,F,,,6.2,94,,1.5,Straw,1,Straw
+439,Purdiei,NY,COLOMBIA,Secondaries,8,Elliptic,Truncate,Acuminate,Y,73.5,168,2.29,36,0.21,5,0.5,Amber,M,62,2.5,4,165,2,1.1,Amber,1.6,Amber
+197,Purdiei,US,COLOMBIA,Secondaries,6,Elliptic,Acute,Apiculate,N,86,156,1.81,,,2,2.7,Straw,F,17,3,5.5,108,5,1.1,Straw,1.5,Straw
+348,Purdiei,NY,COLOMBIA,Secondaries,8,Elliptic,Truncate,Apiculate,N,81,150,1.85,26,0.17,2,25,Amber,F,12,3,6,126,5,1,Amber,1.1,Amber
+198,Purdiei,US,COLOMBIA,Secondaries,4,Elliptic,Truncate,Acuminate,Y,83,194,2.34,28,0.14,3,1.5,Amber,F,21,2,8,131,6,1.5,Straw,1.9,Amber
+153,Purdiei,US,COLOMBIA,Tertiaries,18,Elliptic,Truncate,,,148,290,1.96,,,3,0.7,Brown,F,45.5,3,5.6,116,2,0.8,Amber,1,Amber
+406,Purdiei,NY,COLOMBIA,Tertiaries,12,Lanceolate,Acute,Apiculate,N,114.5,260,2.27,48,0.18,2,1.7,Amber,F,20,2,4.3,106,2,0.6,Amber,0.4,Amber
+202,Purdiei,US,COLOMBIA,Secondaries,4,Elliptic,Acute,Acuminate,N,54.5,118.5,2.17,23,0.19,6,2.6,Amber,M,24,1.5,,,7,0.6,Straw,1.3,Straw
+193,Purdiei,US,COLOMBIA,Secondaries,2,Elliptic,Truncate,Acuminate,N,54,96,1.78,24,0.25,6,0.8,White,F,33,2,5.3,124,1,0.8,Straw,0,Absent
+192,Purdiei,US,COLOMBIA,Secondaries,7,Elliptic,Truncate,Acuminate,N,78.5,182,2.32,26,0.14,6,1.3,Straw,F,40,1.5,7.5,120,4,0.8,Straw,1.2,Straw
+206,Purdiei,US,COLOMBIA,Secondaries,4,Elliptic,Acute,Acute,N,50,105,2.1,26,0.25,4,,Straw,M,25,1,4.9,104,7,1.1,Straw,1,Straw
+204,Purdiei,US,COLOMBIA,Secondaries,4,Elliptic,Acute,Apiculate,N,52.5,122,2.32,31,0.25,6,1.6,Amber,M,23.5,1,4.3,75,7,1.1,Straw,1.1,Straw
+205,Purdiei,US,COLOMBIA,Secondaries,6,Elliptic,Acute,Acuminate,N,54.5,127,2.33,25,0.2,6,1.3,Straw,M,28,1.5,3.5,124,9,1,Straw,1.5,Straw
+345,Purdiei,NY,VENEZUELA,Secondaries,6,Elliptic,Truncate,Acuminate,N,58,163,2.81,,,4,0.5,Amber,M,19,1,4.5,149,3,1.3,White,1.7,White
+347,Purdiei,NY,VENEZUELA,Secondaries,5,Elliptic,Truncate,Acuminate,N,68,138,2.03,31,0.22,,,,F,16,1,5.5,72,5,1.1,Straw,1.6,Amber
+346,Purdiei,NY,VENEZUELA,Secondaries,5,Elliptic,Truncate,Acuminate,N,62,153,2.47,28,0.18,6,2,Amber,F,21,2,7.5,130,8,1.2,Straw,1.5,Straw
+405,Purdiei,NY,VENEZUELA,Tertiaries,5,Elliptic,Acute,Acute,N,61,146,2.39,26,0.18,5,0.9,Amber,M,25,1.5,4,140,9,0.8,Amber,1.5,Brown
+349,Purdiei,NY,VENEZUELA,Secondaries,11,Elliptic,Acute,Acute,N,70,141,2.01,29,0.21,,,,M,8,2,4.3,130,12,0.8,Straw,1.1,White
+446,Setosa,NY,PERU,Tertiaries,9,Lanceolate,Truncate,,,78,255,3.27,,,,,,F,30,5.5,9.5,115,1,0.3,Amber,0,Absent
+443,Setosa,NY,BOLIVIA,Tertiaries,8,Lanceolate,Truncate,Acuminate,Y,101,305,3.02,63,0.21,5,4.5,Amber,F,19,2,5.5,121,7,1.6,Amber,2.8,Amber
+444,Setosa,NY,BOLIVIA,Tertiaries,18,Lanceolate,Truncate,Acuminate,N,116,308,2.66,56,0.18,5,4,Amber,F,34,2.5,9,114,7,1.4,Amber,3.5,Amber
+445,Setosa,NY,BOLIVIA,Secondaries,13,Lanceolate,Truncate,Acuminate,N,67,228,3.4,60,0.26,5,4.6,Amber,F,15,1.5,6.5,85,13,1.5,Amber,3,Amber
+306,Setosa,WFU,PERU,Tertiaries,25,Elliptic,Hastate,Acute,N,133,273,2.05,,,4,1.4,Amber,F,37,5,13.5,84,8,42,Straw,5.5,Straw
+211,SetosaSetosa,US,PERU,Secondaries,10,Lanceolate,Truncate,Acuminate,Y,102,299,2.93,45,0.18,4,5.9,Amber,F,,,,,,,,,
+209,SetosaSetosa,US,PERU,Tertiaries,13,Elliptic,Hastate,Apiculate,Y,157,316,2.01,50,0.16,3,4.5,Amber,M,,,3.3,146,5,1.1,Amber,3.5,Amber
+210,SetosaSetosa,US,PERU,Secondaries,11,Elliptic,Truncate,Acuminate,Y,167,390,2.34,,,4,4.6,Amber,F,,,,,,,,,
+207,SetosaSetosa,US,BOLIVIA,Tertiaries,8,Lanceolate,Hastate,Acuminate,N,115,359,3.12,52,0.14,2,4.1,Amber,F,15,2,9,104,5,1.6,Amber,2.4,Amber
+208,SetosaSetosa,US,BOLIVIA,Secondaries,11,Lanceolate,Hastate,Acuminate,Y,138,314,2.28,,,4,4.6,Amber,F,31,2,9,127,7,1.7,Amber,2.2,Amber
+212,SetosaWoytkowskii,US,PERU,Tertiaries,16,Lanceolate,Hastate,Acuminate,Y,164,459,2.8,,,6,11,Straw,F,,,7.2,,,1.6,Amber,,
+258,Triplaris,US,ECUADOR,Secondaries,15,Elliptic,Acute,Acuminate,N,119,259,2.18,27,0.1,6,1.6,Amber,M,62,5.5,4.5,123,3,1.6,Amber,1.5,Amber
+341,Triplaris,NY,COLOMBIA,Tertiaries,23,Lanceolate,Acute,,,127,361,2.84,41,0.11,0,0,Absent,M,21,3,3.3,204,1,0.5,Amber,0,Absent
+261,Triplaris,US,COLOMBIA,Tertiaries,4,Elliptic,Acute,Acute,N,44,86,1.95,,,5,0.3,Amber,M,17,1,4.5,119,8,0.8,Straw,0.4,Brown
+259,Triplaris,US,VENEZUELA,Tertiaries,11,Elliptic,Acute,Apiculate,N,117,201,1.72,,,5,1.5,Amber,F,29,6,5,160,3,3,Straw,1.4,Amber
+260,Triplaris,US,VENEZUELA,,13,Elliptic,Acute,Acuminate,N,120,223,1.86,,,,,,M,45,7,3,190,3,3.5,Straw,1.4,Straw
+342,Triplaris,NY,COLOMBIA,,20,Ovate,Truncate,Apiculate,N,154,262,1.42,41,0.16,,,,M,20,4,1.8,100,2,2.5,White,1,Amber
+343,Triplaris,NY,ECUADOR,Tertiaries,22,Elliptic,Truncate,Acute,,175,435,2.49,41,0.09,6,0.7,Amber,M,,,2.1,,,0.6,White,,
+360,Triplaris,NY,VENEZUELA,Tertiaries,19,Elliptic,Truncate,Apiculate,N,99.5,174,1.75,26,0.15,6,1.4,Straw,M,18,1.5,4.8,92,9,0.2,Straw,1.1,Straw
+257,Triplaris,US,BRAZIL,Secondaries,8,Elliptic,Acute,Acuminate,N,89,180,2.02,41,0.23,0,0,Absent,M,11,5,"2,2",194,2,1.4,Straw,1.3,Straw
+281,Triplaris,MO (WFU dup.?),BOLIVIA,Tertiaries,13,Elliptic,Acute,Acute,N,76,173,2.28,42,0.24,2,2,Straw,M,9,5,2,146,2,1.2,Straw,1.5,Straw
+344,Triplaris,NY,VENEZUELA,Secondaries,6,Elliptic,Truncate,Acuminate,Y,83,187,2.25,30,0.16,4,1.7,Amber,F,14,1,8,94,7,1,Straw,2.3,Straw
+429,Vestita,NY,COLOMBIA,Secondaries,11,Elliptic,Truncate,Acute,N,104,224,2.15,48,0.21,6,1,Amber,M,19,1.5,3,171,9,0.5,Amber,0.7,Amber
+295,Vestita,MO (WFU dup.?),PERU,Tertiaries,8,Elliptic,Truncate,Acuminate,Y,106,238,2.25,43,0.18,6,1.7,Amber,M,59,5.5,3.3,226,4,0.5,Amber,1,Straw
+294,Vestita,MO (WFU dup.?),PERU,Tertiaries,9,Elliptic,Acute,Acute,N,91,184,2.02,38,0.21,6,1.8,Amber,M,24,3,2.4,131,5,0.2,Straw,1,Straw
+222,Vestita,US,PERU,Secondaries,12,Lanceolate,Truncate,Acuminate,Y,105.5,286,2.71,,,6,0.7,Straw,M,29,2,3.2,78,6,0.6,Amber,0.8,Amber
+437,Vestita,NY,PERU,Tertiaries,10,Elliptic,Acute,Acuminate,N,83,164,1.98,37,0.23,6,0.9,Straw,M,19,,2.5,102,10,0.3,Brown,0.4,Amber
+293,Vestita,MO (WFU dup.?),PERU,Secondaries,8,Lanceolate,Truncate,Acuminate,N,65.5,160,2.44,36,0.225,6,1.2,Amber,F,11,4.5,4.7,105,11,0.4,Straw,0.8,Amber
+217,Vestita,US,COLOMBIA,Tertiaries,6,Elliptic,Acute,Acuminate,N,91,232,2.55,,,6,0.7,Straw,M,29,3,3,153,2,0.7,Amber,0.9,Amber
+216,Vestita,US,COLOMBIA,Secondaries,12,Elliptic,Truncate,,,,266,,,,6,0.8,Amber,F,13,3,5.1,133,3,0.5,Amber,0.7,Amber
+220,Vestita,US,COLOMBIA,Secondaries,7,Elliptic,Truncate,Acuminate,N,93,167,1.8,,,6,1.5,Amber,M,20,4,5.5,140,5,0.9,Amber,0.9,Amber
+218,Vestita,US,COLOMBIA,Secondaries,6,Elliptic,Truncate,Acute,N,110.5,212,1.92,,,6,1.3,Amber,M,37,4.5,3.5,123,9,0.7,Amber,0.7,Amber
+430,Vestita,NY,COLOMBIA,Secondaries,3,Elliptic,Truncate,Acute,N,120,208,1.73,,,6,0.9,Straw,M,14,2,3.5,113,14,0.7,Amber,0.6,Amber
+434,Vestita,NY,COLOMBIA,Secondaries,7,Elliptic,Truncate,Acuminate,N,95,153,1.61,,,6,1.1,Straw,M,,,3,84,,0.7,Amber,,
+435,Vestita,NY,BOLIVIA,Secondaries,5,Elliptic,Truncate,Apiculate,N,60,135,2.25,31,0.23,6,0.9,Straw,F,39,3,8.5,108,5,1.2,Amber,0.2,Amber
+491,Vestita,NY,BOLIVIA,Tertiaries,9,Elliptic,Truncate,Acute,N,81.5,162,1.99,27,0.17,6,0.7,Amber,F,10,2,6.5,85,11,0.9,Amber,0.5,Amber
+431,Vestita,NY,BOLIVIA,Secondaries,7.5,Ovate,Truncate,Blunt,N,107,165,1.54,35,0.21,6,0.6,Straw,F,,,9,105,,0.9,Straw,,
+433,Vestita,NY,BOLIVIA,Tertiaries,8,Elliptic,Truncate,Acute,N,94,212,2.26,31,0.15,6,0.3,Straw,F,,,7.5,125,,0.9,Amber,,
+438,Vestita,NY,BOLIVIA,Tertiaries,8,Elliptic,Truncate,Acute,N,124,238,1.92,36,0.15,6,0.7,Straw,F,,,6.5,,,0.7,Straw,,
+432,Vestita,NY,BOLIVIA,,4,Elliptic,Truncate,Acute,N,61,152,2.49,37,0.24,,,,F,,,8,83,,0.9,Amber,,
+428,Vestita,NY,BOLIVIA,Tertiaries,10,Elliptic,Truncate,Acuminate,N,82,207.5,2.53,31,0.15,6,0.9,Amber,F,19,2,5,78,2,0.3,Amber,0.2,Amber
+219,Vestita,US,COLOMBIA,Secondaries,4,Elliptic,Acute,Apiculate,N,62,144,2.32,30,0.21,6,1,Amber,M,31,2.5,2.7,125,8,0.7,Amber,0.5,Amber
+221,Vestita,US,PERU,Secondaries,7,Elliptic,Truncate,Acuminate,N,93.5,183,1.96,41,0.22,6,1.9,Straw,M,14,3,4.5,54,6,0.6,Amber,1.1,Amber
+436,Vestita,NY,,Secondaries,5,Elliptic,Acute,Apiculate,N,59,124.5,2.11,26,0.21,6,0.9,Straw,M,55,2.5,2.4,174,15,1.4,Straw,1,Amber
+229,Weigeltiana,US,GUYANA,Secondaries,14,Elliptic,Acute,Acuminate,,82.5,210,2.55,38,0.18,0,0,Absent,F,,,6.2,159,1,0.8,Straw,0,Absent
+237,Weigeltiana,US,BRAZIL,Secondaries,15,Elliptic,Truncate,Acuminate,N,110,264,2.4,,,0,0,Absent,M,24,3,3,147,1,0.5,Straw,0,Absent
+252,Weigeltiana,US,COLOMBIA,Secondaries,12,Lanceolate,Acute,Acuminate,N,73,258,3.53,,,2,0.5,Amber,M,25,1.5,4.1,153,1,0.9,Amber,0,Absent
+256,Weigeltiana,US,COLOMBIA,Secondaries,20,Lanceolate,Acute,Acuminate,N,121,391,3.23,56,0.14,2,0.4,Amber,F,62,4,4.5,134,1,0.6,Straw,0,Absent
+236,Weigeltiana,US,BRAZIL,Secondaries,12,Lanceolate,Acute,Acuminate,N,54,160,2.96,,,2,0.6,Amber,M,41,1.5,3.7,135,1,0.2,Straw,0,Absent
+246,Weigeltiana,US,VENEZUELA,Secondaries,14.5,Lanceolate,Truncate,Apiculate,N,82,223,2.72,57,0.26,2,0.7,Straw,F,22,4,5.2,107,0,0,Absent,0,Absent
+247,Weigeltiana,US,VENEZUELA,Secondaries,17,Lanceolate,Truncate,Acute,N,80,205,2.6,51,0.25,2,0.3,Amber,M,30,3,3.5,126,1,0.4,Straw,0,Absent
+251,Weigeltiana,US,COLOMBIA,Secondaries,13,Elliptic,Acute,Blunt,N,111,245,2.21,35,0.14,0,0,Absent,M,30,3,2.5,141,1,0.9,Brown,0,Absent
+213,Weigeltiana,US,GUYANA,Secondaries,16,Lanceolate,Acute,Apiculate,N,95,258,2.72,,,2,0.9,Straw,F,29,2,6.2,108,1,0.2,Straw,0,Absent
+215,Weigeltiana,US,GUYANA,Secondaries,10,Elliptic,Truncate,Apiculate,N,105,255,2.43,50,0.2,2,1.1,Brown,M,24,3.5,4,78,1,0.5,Straw,0,Absent
+303,Weigeltiana,WFU,PERU,Secondaries,32,Lanceolate,Acute,Acuminate,N,55.5,205,3.69,48,0.23,2,0.4,Straw,F,40.5,5,5.7,258,0,0,Absent,0,Absent
+255,Weigeltiana,US,PERU,Secondaries,12,Lanceolate,Attenuate,Acuminate,N,58,195,3.36,,,0,0,Absent,M,16,1,3.3,94,1,0.3,Straw,0,Absent
+249,Weigeltiana,US,PERU,Secondaries,12,Lanceolate,Acute,Acuminate,N,68,222,3.26,57,0.26,3,0.3,Amber,M,44,5,3.5,195,1,0.5,Straw,0,Absent
+254,Weigeltiana,US,ECUADOR,Secondaries,19,Elliptic,Truncate,Acuminate,Y,116,267,2.3,,,3,0.5,Amber,F,28,2.5,6.3,119,2,0.4,Straw,0.1,Straw
+250,Weigeltiana,US,ECUADOR,Tertiaries,21,Lanceolate,Acute,Acuminate,N,100.5,328,3.26,,,0,0,Absent,M,64,5,2,145,1,0.6,Straw,0,Absent
+253,Weigeltiana,US,ECUADOR,Secondaries,13,Elliptic,Acute,Acuminate,Y,104,267,2.57,,,2,0.6,Straw,F,34,2.5,7.6,129,1,0.6,Brown,0,Absent
+238,Weigeltiana,US,BRAZIL,Secondaries,12,Lanceolate,Acute,Acuminate,N,51,160,3.14,40,0.25,0,0,Absent,F,22,2,4.3,63,1,0.1,Straw,0,Absent
+228,Weigeltiana,US,GUYANA,Secondaries,8,Elliptic,Acute,Acuminate,N,51.5,110,2.14,24,0.22,0,0,Absent,F,15,2,6.1,52,1,0.1,Straw,0,Absent
+296,Weigeltiana,WFU,PERU,Secondaries,23,Lanceolate,Acute,Acuminate,N,81,266,3.28,61,0.23,3,0.3,Straw,F,35,3.5,5.1,132,0,0,Absent,0,Absent
+297,Weigeltiana,WFU,PERU,Secondaries,15,Elliptic,Acute,Acuminate,N,86,214,2.49,52,0.24,3,0.5,Amber,M,42,4.5,3.7,87,0,0,Absent,0,Absent
+298,Weigeltiana,WFU,PERU,Secondaries,19,Elliptic,Acute,,,87,242,2.78,46,0.19,3,0.4,Amber,F,25,3,4.5,124,0,0,Absent,0,Absent
+305,Weigeltiana,WFU,PERU,Secondaries,14,Lanceolate,Acute,Acuminate,N,80.5,256,3.18,67,0.26,3,1,Amber,F,23,3.5,5.3,67,0,0,Absent,0,Absent
+330,Weigeltiana,WFU,PERU,Tertiaries,11,Lanceolate,Attenuate,,,75,223,2.97,50,0.22,3,0.8,Amber,M,37,3,3.5,126,3,1,Straw,0.6,Straw
+241,Weigeltiana,US,BRAZIL,Secondaries,15,Lanceolate,Acute,Acuminate,Y,49,181,3.69,,,0,0,Absent,F,29,3,4.5,213,0,0,Absent,0,Absent
+240,Weigeltiana,US,BRAZIL,Secondaries,5,Lanceolate,Acute,Acuminate,Y,73,218,2.99,,,0,0,Absent,M,21,1.5,3,68,1,0.1,Straw,0,Absent
+239,Weigeltiana,US,BRAZIL,Secondaries,14,Lanceolate,Acute,Acuminate,N,73,225,3.08,42,0.19,2,1.4,Amber,M,37,2,3.4,151,1,0.4,Straw,0,Absent
+224,Weigeltiana,US,GUYANA,Secondaries,15,Lanceolate,Truncate,Acuminate,N,91,256,2.81,46,0.18,0,0,Absent,F,26,2.5,4.5,91,0,0,Absent,0,Absent
+232,Weigeltiana,US,FRENCH GUIANA,Secondaries,21,Lanceolate,Acute,Acuminate,Y,83,303,3.65,48,0.16,0,0,Absent,F,22,1.5,6.7,116,0,0,Absent,0,Absent
+242,Weigeltiana,US,SURINAM,Secondaries,19,Lanceolate,Truncate,Acuminate,N,84,287,3.42,,,0,0,Absent,F,39,6,6.3,166,0,0,Absent,0,Absent
+248,Weigeltiana,US,VENEZUELA,Secondaries,11,Lanceolate,Acute,Acute,N,68,185,2.72,50,0.32,2,1.2,Straw,F,12,2.5,5.9,91,0,0,Absent,0,Absent
+223,Weigeltiana,US,GUYANA,,16,Lanceolate,Attenuate,Acuminate,Y,73,229.5,3.14,42,0.18,,,,F,22,3,6.5,136,0,0,Absent,0,Absent
+244,Weigeltiana,US,SURINAM,,13,Lanceolate,Acute,Acuminate,N,53,203,3.83,,,,,,F,34,2.5,6.5,127,0,0,Absent,0,Absent
+214,Weigeltiana,US,GUYANA,Secondaries,18,Lanceolate,Acute,,,90,286,3.18,,,0,0,Absent,F,47,7,4.4,150,1,0.4,Straw,0,Absent
+225,Weigeltiana,US,SURINAM,Secondaries,17,Lanceolate,Acute,Acuminate,N,61.5,202,3.28,45,0.22,0,0,Absent,M,24,1.5,3,120,1,0.8,Straw,0,Absent
+231,Weigeltiana,US,FRENCH GUIANA,Secondaries,20,Elliptic,Acute,Acute,N,85,203,2.39,,,0,0,Absent,M,42,4,5.3,132,1,0.6,Straw,0,Absent
+233,Weigeltiana,US,FRENCH GUIANA,Secondaries,16,Lanceolate,Acute,Acuminate,N,102,285,2.79,,,0,0,Absent,F,38,2.5,5.5,82,1,0.5,Straw,0,Absent
+234,Weigeltiana,US,FRENCH GUIANA,Secondaries,8,Lanceolate,Acute,Acuminate,N,49.5,186,3.76,49,0.26,0,0,Absent,F,8,2.5,6,106,1,0.5,Amber,0,Absent
+235,Weigeltiana,US,FRENCH GUIANA,Secondaries,14,Elliptic,Acute,Acuminate,N,82,214,2.61,,,0,0,Absent,M,28,2,3.5,171,1,0.6,Straw,0,Absent
+226,Weigeltiana,US,GUYANA,Secondaries,27,Lanceolate,Acute,Acute,N,105,327,3.11,,,2,1.1,Straw,M,32,2,3.5,93,1,0.4,Straw,0,Absent
+227,Weigeltiana,US,SURINAM,Secondaries,10,Lanceolate,Acute,Acuminate,N,71.5,227,3.17,45,0.2,2,0.6,Straw,F,23,2,5,108,1,0.7,Straw,0,Absent
+243,Weigeltiana,US,SURINAM,Secondaries,7,Lanceolate,Acute,Acuminate,N,55,199,3.62,46,0.23,2,1.7,Straw,F,29,3,4.5,200,1,0.6,Straw,0,Absent
+245,Weigeltiana,US,SURINAM,Secondaries,16,Lanceolate,Acute,Acuminate,Y,77,165,2.14,,,2,1.2,Straw,M,40,1.5,2.5,136,1,0.3,Straw,0,Absent
+230,Weigeltiana,US,GUYANA,Secondaries,18,Lanceolate,Acute,Acute,N,86.5,253,2.92,46,0.18,,,,F,23,5.5,6.6,114,1,0.2,Straw,0,Absent
