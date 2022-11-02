@@ -2,11 +2,11 @@
 title: "Asynchronous Web Requests Demo"
 author: "Michael JV O'Mahoney"
 date: "2022-10-26"
-output: html_document
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
 ```
 
 ---
