@@ -1,0 +1,273 @@
+---
+title: "Carpentries Community Chat - March: Arranging multiple plots into one"
+author: "Paula Pappalardo based on online materials"
+date: "2023-03-29"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# Overview
+
+I wanted to do a demo of how to combine multiple plots into one (and some other related tasks), since it is something I have to do often for my work. I hope this list of resources is useful for you, it was certainly useful for me to compile all of this in one place :)
+
+I gathered code and information from the following online resources for the demo today, and other specific resources are also listed throughout the text:
+
+* great vignettes from cowplot package:
+  * https://wilkelab.org/cowplot/articles/introduction.html
+  * https://wilkelab.org/cowplot/articles/plot_grid.html#joint-plot-titles-1
+  * https://wilkelab.org/cowplot/articles/aligning_plots.html
+  * https://wilkelab.org/cowplot/articles/drawing_with_on_plots.html 
+  
+* overview of multiple useful packages from here:
+  http://www.sthda.com/english/wiki/wiki.php?id_contents=7930#install-and-load-the-package-gridextra
+  
+* example of using the sleep mammals dataset: https://rpubs.com/Pragya2/724593
+
+Even though the main goal is to combine plots into one, I have included some other plot edits/tricks that you may found useful to know they exist. I added comments to explain what the code does when I first used something.
+  
+# Setup
+
+These are the libraries we will use to learn how to combine plots. If you do not have them, you can install them using _install.packages("packageName")_.
+
+```{r setup}
+library(ggplot2)
+library(cowplot)
+library(gridExtra)
+
+#to install packages if you do not have them
+#install.packages("cowplot")
+```
+
+# Why these packages (and more packages in the bonus items below)
+
+One, because they get the job done. You will be surprised as how many packages you end up installing everytime you want a specific task and find the perfect package for it. But some fun facts about __cowplot__:
+1) it's creator wrote this book "Fundamentals of Data Visualization" and it is available online, seems like a great resource: https://clauswilke.com/dataviz/ 
+2) the creator also does art from code, looks fun!: https://clauswilke.com/art/about
+
+# Let's make some plots to be combined
+
+To make this simple, let's use one of the datasets included with ggplot2, as a biologist, I found this one interesting: https://ggplot2.tidyverse.org/reference/msleep.html. If you want to check out the scientific publication, is here: https://www.pnas.org/doi/epdf/10.1073/pnas.0610080104
+
+```{r create individual plots}
+# sleep time (hs) by body weight (kg#scale_x_log10(labels = comma) +
+p1 <- ggplot(msleep, aes(x = bodywt, y = sleep_total)) + # define your dataset and variables
+  geom_point() + # add points to make a scatterplot
+  scale_x_log10() + # convert x scale to log10
+  theme_cowplot(12) + # basic cowplot theme with font 12
+  panel_border(color = "black")
+
+p1
+
+# add color by diet type and some labels
+p2 <- ggplot(msleep, aes(x = bodywt, y = sleep_total, color = vore)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = F) + # add smooth line based on linear regression, without the standard error
+  scale_x_log10() + 
+  theme_cowplot(12) + 
+  panel_border(color = "black") + # add a border to the plot panel
+  guides(color = guide_legend(title = "Diet type")) + # define your legend tittle
+  labs(x = "Body weight (kg)", y = "Total sleep (h)") # add x and y labels
+
+p2
+
+# diet/sleep boxplot
+p3 <- ggplot(msleep, mapping=aes(x = vore, y= sleep_total, fill = vore)) +
+  geom_boxplot() + 
+  labs(x = "Diet", y = "Sleep Total") + 
+  theme_bw() + # try out another theme from ggplot2
+  theme(legend.position = "none")  # remove color legend since axis names is self explanatory
+
+p3
+```
+
+# Combining plots
+
+## Using cowplot package
+
+We can combine plots with the *plot_grid()* function:
+
+```{r cowplot - combine}
+# basic
+plot_grid(p1, p2, p3)
+```
+
+You can also define your desired output
+
+```{r cowplot - specify output, fig.width=11, fig.height=4}
+# define your desired output format by rows or cols
+plot_grid(p1, p2, p3, nrow = 1)
+```
+
+
+
+Let's add labels (manually or automatically), here some options for manual labels or automatic in caps or lower caps:
+
+```{r cowplot - add labels}
+# add labels manually
+plot_grid(p1, p2, p3, labels = c('A.', 'B.', 'C.'), label_size = 12)
+
+# add labels automatically in lower caps
+plot_grid(p1, p2, p3, label_size = 12, labels = "auto")
+
+# add labels automatically in CAPS
+plot_grid(p1, p2, p3, label_size = 12, labels = "AUTO")
+```
+
+You can also adjust the relative size of plots:
+
+```{r cowplot - play with relative size, fig.width= 9, fig.height= 4}
+# make first plot larger than the other one
+plot_grid(p1, p3, labels = "AUTO", rel_widths = c(2, 1))
+```
+You can also fine tune how you combine the plots by combining some first
+
+```{r cowplot - fine tuning how to combine plots}
+# simple example no labels
+
+# define desired top row
+top_row <- plot_grid(p1, p2)
+# combine top_row and p3
+plot_grid(top_row, p3, ncol = 1)
+
+# with labels
+
+# if you want to add labels, you have to do it manually, this works
+# define labels for top row
+top_row <- plot_grid(p1, p2, labels = c("a", "b"))
+# define labels for low row
+lower_row <- plot_grid(p3, labels = c("c", ""))
+# combine top and lower rows into 1 column for desired
+plot_grid(top_row, lower_row, ncol = 1)
+
+```
+
+We can make insets plots using the draw_plot() function
+
+```{r cowplot - insets}
+inset <- ggplot(subset(msleep, !is.na(vore)), # subset the data without diet info
+                aes(x = vore, y= sleep_total, fill = vore)) + # fill box plots coloring by diet
+  geom_boxplot(alpha = 0.6) + # add transparency to the boxplot in case if ends on top of points
+  labs(x = "Diet", y = "Sleep Total") + 
+  theme_minimal_hgrid(9) +
+  theme(legend.position = "none") 
+
+ggdraw(p1 + theme_half_open(12)) +
+  draw_plot(inset, .55, .55, .4, .4)
+  
+```
+
+
+## Using gridExtra package
+
+We can also combine plots using grid.arrange from __gridExtra__
+
+```{r gridExtra - basic}
+# basic, using their defaults (notice is different that cowplot)
+grid.arrange(p1, p2, p3)
+
+# set up your desired output
+grid.arrange(p1, p2, p3, nrow = 1)
+grid.arrange(p1, p2, p3, ncol = 2)
+```
+
+```{r gridExtra - using all space}
+# combine two plots into 1 column to avoid the free space
+grid.arrange(arrangeGrob(p1, p2), p3, nrow = 1)
+
+```
+Here more details on how to arrange grobs in complicated designs: https://cran.r-project.org/web/packages/gridExtra/vignettes/arrangeGrob.html
+
+# Bonus #1
+
+While putting together this tutorial I found out something that always was kind of bothering me in the background but never actively occur to me to put time to figure it out. If you ever wonder how to get rid of that space between zero in the y-axis and your x-axis line, here is the answer in one of the __cowplot__ vignettes: https://wilkelab.org/cowplot/articles/themes.html
+
+```{r typical bar plot}
+ggplot(mtcars, aes(factor(cyl))) +
+  geom_bar(fill = "#56B4E9", alpha = 0.8) +
+  theme_half_open()
+```
+
+```{r bar plot without the space}
+ggplot(mtcars, aes(factor(cyl))) +
+  geom_bar(fill = "#56B4E9", alpha = 0.8) +
+  scale_y_continuous(
+    # don't expand y scale at the lower end
+    expand = expansion(mult = c(0, 0.05))
+  ) +
+  theme_half_open()
+```
+
+# Bonus #2
+
+Would you like to change your log axis labels so that you can quickly grasp numbers instead of having the scientific notation? The package __scales__ has a handy helper for that.
+
+Compare this plot:
+
+```{r log axis in scientific notation}
+
+ggplot(msleep, aes(x = bodywt, y = sleep_total)) +
+  geom_point() +
+  scale_x_log10() +
+  theme_cowplot(12) 
+
+```
+
+With this plot:
+
+```{r log axis in numbers}
+library(scales)
+
+ggplot(msleep, aes(x = bodywt, y = sleep_total)) +
+  geom_point() +
+  scale_x_log10(labels = comma) +
+  theme_cowplot(12) 
+```
+
+Adding the "labels = comma" within the call to scale_x_log10 is what does the trick.
+
+# Bonus #3
+
+I have been trying to use color blind friendly palettes when doable, and was manually setting my color palettes. While preparing this I found a new trick from the __ggthemes__ package where you have color blind palettes ready to use!
+
+```{r use color blind palette for boxplot}
+library(ggthemes)
+
+ggplot(msleep, mapping=aes(x = vore, y= sleep_total, fill = vore)) +
+  geom_boxplot() + 
+  labs(x = "Diet", y = "Sleep Total") + 
+  scale_fill_colorblind() + # fill boxplots using color blind friendly palette
+  theme_bw()
+```
+
+Here you can read more about other uses of the colorblind friendly palettes: https://rdrr.io/cran/ggthemes/man/colorblind.html.
+
+We should always try to use colorblind friendly palettes, and one of our attendees today suggested two great resources to learn more about this:
+1) the __microshades__ package supports colorblind friendly palettes up to 30 colors: https://github.com/KarstensLab/microshades
+2) here you can learn more and also test for colorblind friendly: mihttps://sites.google.com/pdx.edu/cvd-friendliness-resources/home?fbclid=IwAR01_rPpeWNK3GaI2ozpnJr7THLH1ooWU7ZJ98ixVPJc2dBc18OEf_Mo-Mo
+
+# Bonus #4
+
+I just found this on how to incorporate formatted text into your visualizations:
+https://posit.co/resources/videos/spruce-up-your-ggplot2-visualizations-with-formatted-text/
+
+Here a simple example to add italics to your *titles*. Compare this:
+
+```{r desired title with italics}
+p1 +
+  ggtitle("Big taxa, *little* sleep")
+```
+
+with this:
+
+```{r implement markdown for title}
+#remotes::install_github('wilkelab/ggtext')
+
+library(ggtext)
+
+p1 +
+  ggtitle("Big organisms get *little* sleep") +
+  theme(plot.title = element_markdown())
+```
+
+Happy plotting everybody!
